@@ -5,7 +5,7 @@
  * The players have to have been in readystate before they will perform the actions in the playing
  * state.
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

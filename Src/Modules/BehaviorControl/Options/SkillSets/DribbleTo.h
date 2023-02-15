@@ -3,7 +3,7 @@
  *
  * Run behind ball, and if facing +/- 60 degrees towards opponent side, run into ball and do in walk kicks and shit.
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

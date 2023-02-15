@@ -4,7 +4,7 @@
  * The robot will walk towards the assigned position and then rotate so that
  * it's facing the ball, which we for now consider optimal.
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

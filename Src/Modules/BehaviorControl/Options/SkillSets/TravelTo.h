@@ -3,7 +3,7 @@
  *
  * Walk to some point and heading on the field, as quickly as possible, while avoiding other players.
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

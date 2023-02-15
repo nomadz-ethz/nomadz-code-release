@@ -4,7 +4,7 @@
  * Declaration of class VideoPlayer, inspired by QT's Phonon/VideoPlayer.
  * Does not provide automatic playback or audio; can only seek and show video.
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

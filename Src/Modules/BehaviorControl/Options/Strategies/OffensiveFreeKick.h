@@ -8,7 +8,7 @@
  * If player is from the non-kicking team:
  * local search and if ball is found move away from the ball.
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

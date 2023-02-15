@@ -4,7 +4,7 @@
  * Complete optimizable set of states that can be used by defenders to
  * walk towards the ball and clear it.
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

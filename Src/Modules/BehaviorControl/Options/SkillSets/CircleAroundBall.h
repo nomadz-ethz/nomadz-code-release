@@ -4,7 +4,7 @@
  *  (i.e. Circling around the ball until the global \c globalTargetAngle  angle is reached)
  * @param globalTargetAngle Global target angle
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

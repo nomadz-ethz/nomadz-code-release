@@ -6,7 +6,7 @@
  * its head to the maximum amound instead. The algorithm is not looped since we do not assume that the robot
  * will observe the goal the second time it turns its head when it didn't observe it the first time.
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

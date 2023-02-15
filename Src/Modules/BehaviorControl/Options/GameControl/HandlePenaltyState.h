@@ -5,7 +5,7 @@
  * This option is one level higher than the main game state handling as penalties
  * might occur in most game states.
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

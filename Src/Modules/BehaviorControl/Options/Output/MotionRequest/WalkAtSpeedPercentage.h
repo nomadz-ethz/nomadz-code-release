@@ -8,7 +8,7 @@
  *                      Pose2D(0.f, 0.5f, 0.5f) lets move the robot diagonal at half of the possible speed
  *                      Pose2D(0.5f, 1.f, 0.f) lets move the robot in a circle
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

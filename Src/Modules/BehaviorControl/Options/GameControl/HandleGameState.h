@@ -4,7 +4,7 @@
  * Triggers the options for the different game states.
  * This option also invokes the get up behavior after a fall, as this is needed in most game states.
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

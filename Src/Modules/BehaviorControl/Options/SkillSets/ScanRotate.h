@@ -7,7 +7,7 @@
  * However the body will not turn towards the ball. This is the task of the
  * behaviour which implements SearchForBall.
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

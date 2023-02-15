@@ -4,7 +4,7 @@
  * Walk to the ball and kick it towards some position on the field, as quickly as possible.
  * On the way to the ball, walks around other players to avoid collision.
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

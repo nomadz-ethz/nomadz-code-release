@@ -6,7 +6,7 @@
  *  @param speed Walking speeds, in percentage.
  *  @param target Walking target, in mm and radians, relative to the robot.
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */

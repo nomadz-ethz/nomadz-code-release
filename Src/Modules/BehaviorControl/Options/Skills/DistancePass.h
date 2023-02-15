@@ -7,7 +7,7 @@
  * Description: This skill implements a pass over a given distance [mm]
  * Note: The robot should be aligned to it's target before this skill is called
  *
- * This file is subject to the terms of NomadZ 2022 License.
+ * This file is subject to the terms of MIT License.
  * A copy of this license is included in LICENSE.txt.
  * (c) 2022 NomadZ team
  */
