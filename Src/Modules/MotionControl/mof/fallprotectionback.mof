@@ -1,0 +1,22 @@
+motion_id = fallprotectionback
+"test
+
+label start
+
+hardness       15     15           25     25     18     18     18     18           25     18     18     18     20     20           20     20     20     20     20     20           20     20     20     20     20     20            0
+
+"              HY     HP          LSP    LSR    LEY    LER    LWY     LH          RSP    RSR    REY    RER    RWY     RH         LHYP    LHR    LHP    LKP    LAP    LAR         RHYP    RHR    RHP    RKP    RAP    RAR          Int    Dur
+             -0.5   30.3          118     45     43    -88    -65      0          118    -45    -43     88     65      0            0     -0    -58    120    -67    0.1            0      0    -58    120    -67      0            1    100
+             -0.5   30.3          105     18     25    -88    -65      0          105    -18    -25     88     65      0            0     -0    -58    120    -67    0.1            0      0    -58    120    -67      0            1     50
+
+hardness       15     15            8      8      8      8      8      8            8      8      8      8     20     20           20     20     20     20     20     20           20     20     20     20     20     20            0
+
+             -0.5   30.3          105     15     25    -88    -65      0          105    -15    -25     88     65      0            0     -0    -58    120    -67    0.1            0      0    -58    120    -67      0            1    800
+
+             -0.5   30.3          105     60     25    -88    -65      0          105    -60    -25     88     65      0            0     -0    -58    120    -67    0.1            0      0    -58    120    -67      0            1    300
+label repeat
+             -0.5   30.3          105     60     25    -88    -65      0          105    -60    -25     88     65      0            0     -0    -58    120    -67    0.1            0      0    -58    120    -67      0            1    100
+
+transition fallprotectionback fallprotectionback repeat
+
+transition allMotions extern start

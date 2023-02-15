@@ -1,0 +1,15 @@
+# activate simulation time
+st on
+
+# only a single robot displays game state
+dr debugDrawing3d:representation:GameInfo
+dr debugDrawing3d:representation:TeamInfo
+
+# in case we have more than a single robot
+robot all
+
+call BasicSimSetup
+
+call GameStates
+
+dr debugDrawing3d:representation:RobotPose

@@ -1,0 +1,7 @@
+# views relative to robot
+vfd worldState origin:RobotPose
+
+vfd worldState representation:MotionRequest
+
+# back to global coordinates
+vfd worldState origin:Reset

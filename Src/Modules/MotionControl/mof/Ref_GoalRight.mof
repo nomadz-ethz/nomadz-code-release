@@ -1,0 +1,15 @@
+motion_id = Ref_GoalRight
+"test
+
+label start
+
+hardness       40     40           80     80     40     40     40     40           80     80     40     40    100    100          100    100    100    100    100    100          100    100    100    100    100    100            0
+
+"              HY     HP          LSP    LSR    LEY    LER    LWY     LH          RSP    RSR    REY    RER    RWY     RH         LHYP    LHR    LHP    LKP    LAP    LAR         RHYP    RHR    RHP    RKP    RAP    RAR          Int    Dur
+             -0.5     -7           20    -15      0      0      0      0           90    -78     -0     -0     90      0            0     -0  -21.3   48.9  -27.6    0.1            0      0  -21.2     49  -27.6      0            1    600
+label repeat
+hardness       80     80           40     40     40     40     40     40           40     40     40     40     40     40           60     60     60     60     60     60           60     60     60     60     60     60            0
+             -0.5     -7           20    -15      0      0      0      0           90    -78     -0     -0     90      0            0     -0  -21.3   48.9  -27.6   -0.1           -0      0  -21.2     49  -27.6      0            1    100
+transition Ref_GoalRight Ref_GoalRight repeat
+
+transition allMotions extern start

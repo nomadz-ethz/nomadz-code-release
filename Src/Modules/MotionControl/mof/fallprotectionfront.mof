@@ -1,0 +1,20 @@
+motion_id = fallprotectionfront
+"test
+
+label start
+
+hardness       15     15           15     15     15     15     15     15           15     15     15     15     20     20           20     20     20     20     20     20           20     20     20     20     20     20            0
+
+"              HY     HP          LSP    LSR    LEY    LER    LWY     LH          RSP    RSR    REY    RER    RWY     RH         LHYP    LHR    LHP    LKP    LAP    LAR         RHYP    RHR    RHP    RKP    RAP    RAR          Int    Dur
+             -0.5    -29           69      8     90    -45    -90      0           69     -8    -90     45     90      0            0     -0      6     80    -67    0.1            0      0      6     80    -67      0            1     50
+
+             -0.5    -29           69      8     90    -45    -90      0           69     -8    -90     45     90      0            0     -0     27    120    -67    0.1            0      0     27    120    -67      0            1    800
+
+label repeat
+
+hardness       80     80           40     40     40     40     40     40           40     40     40     40     40     40           60     60     60     60     60     60           60     60     60     60     60     60            0
+                *    -29           90   10.1      0      0    -90      0         90.5   -9.8     -0     -0     90      0            0     -0  -21.3     40  -27.6   -0.1           -0      0  -21.2     40  -27.6      0            1    500
+
+transition fallprotectionfront fallprotectionfront repeat
+
+transition allMotions extern start

@@ -1,0 +1,15 @@
+motion_id = jointCalibrationSit
+
+label start
+
+hardness       10     10           15     15     15     15     15     15           15     15     15     15     20     20           15     15     20      0      0     15           15     15     20      0      0     15            0
+
+"              HY     HP          LSP    LSR    LEY    LER    LWY     LH          RSP    RSR    REY    RER    RWY     RH         LHYP    LHR    LHP    LKP    LAP    LAR         RHYP    RHR    RHP    RKP    RAP    RAR          Int    Dur
+                0     -0           90     10      0      0    -90      0           90    -10     -0     -0     90      0            0     -0  -52.9    121  -68.2     -0            0      0  -53.5  121.5    -68      0            1    100
+
+label repeat
+                0     -0           90     10      0      0    -90      0           90    -10     -0     -0     90      0            0     -0  -52.9    121  -68.2     -0            0      0  -53.5  121.5    -68      0            1    100
+
+transition jointCalibrationSit jointCalibrationSit repeat
+
+transition allMotions extern start

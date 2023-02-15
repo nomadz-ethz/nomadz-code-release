@@ -1,0 +1,10 @@
+# Setup field view worldState i.e. the top-view of the field 
+# and corresponding visualizations
+
+# create view and draw field lines
+vf worldState
+vfd worldState fieldLines
+vfd worldState fieldPolygons
+
+# 3-D image views
+v3 image raw

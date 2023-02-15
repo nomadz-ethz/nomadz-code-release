@@ -1,0 +1,10 @@
+vid rawUpper representation:BallSpots:Image
+vid rawUpper representation:BallPercept:Image
+vid rawUpper representation:BallModel:Image
+vid rawUpper module:TfLiteBallPerceptor:patches
+
+vid raw representation:BallSpots:Image
+vid raw representation:BallPercept:Image
+vid raw representation:BallModel:Image
+vid raw module:TfLiteBallPerceptor:patches
+

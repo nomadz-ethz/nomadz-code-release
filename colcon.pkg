@@ -1,0 +1,3 @@
+{
+  "cmake-args": ["-GNinja", "-DNOMADZ_TARGET=ng", "-DBUILD_TESTING=OFF"]
+}

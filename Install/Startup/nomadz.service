@@ -1,0 +1,13 @@
+[Unit]
+Description=Nomadz framework
+Requires=naobridge.service
+After=naobridge.service
+
+[Service]
+ExecStart=/home/nao/bin/nomadz
+Environment=LD_LIBRARY_PATH=/home/nao/lib HOME=/home/nao
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

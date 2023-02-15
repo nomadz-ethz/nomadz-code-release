@@ -1,0 +1,5 @@
+vid rawUpper representation:PlayerPercept:Image
+vid rawUpper module:DeepPlayerPerceptor:bboxes
+
+vid raw representation:PlayerPercept:Image
+vid raw module:DeepPlayerPerceptor:bboxes

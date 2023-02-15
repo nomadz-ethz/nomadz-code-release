@@ -1,0 +1,57 @@
+motion_id = kickSidewardsNao        
+
+label start         
+
+hardness        *      *          100    100    100    100    100    100          100    100    100    100    100    100          100    100    100    100    100    100          100    100    100    100    100    100          500
+
+
+"              HY     HP          LSP    LSR    LEY    LER    LWY     LH          RSP    RSR    REY    RER    RWY     RH         LHYP    LHR    LHP    LKP    LAP    LAR         RHYP    RHR    RHP    RKP    RAP    RAR          Int    Dur
+                *      *           90   22.9      0  -22.9    -90      0           90  -22.9     -0   22.9     90      0            0     -0  -13.8   39.1  -25.3     -0            0      0  -13.8   39.1  -25.3      0            1    500
+transition getUpFrontNao getUpFrontNao start
+transition getUpBackNao getUpBackNao start
+" stand
+
+                *      *           90   22.9      0  -22.9    -90      0           90  -22.9     -0   22.9     90      0            0  -10.9  -10.6   32.6    -22     19            0   -9.8    5.5      0   -5.5   18.4            1   1100
+transition getUpFrontNao getUpFrontNao start
+transition getUpBackNao getUpBackNao start
+" r�ber
+
+                *      *           90   22.9      0  -22.9    -90      0           90  -22.9     -0   22.9     90      0            0  -10.9  -10.6   32.6    -22     19            0   -9.8    5.5      0   -5.5   18.4            1    400
+transition getUpFrontNao getUpFrontNao start
+transition getUpBackNao getUpBackNao start
+
+                *      *           90   22.9      0  -22.9    -90      0           90  -22.9     -0   22.9     90      0            0  -10.9  -10.6   32.6    -22   19.5            0  -25.2  -14.2   39.8  -25.7   33.8            1    500
+transition getUpFrontNao getUpFrontNao start
+transition getUpBackNao getUpBackNao start
+" schussbein zur seite
+
+                *      *           90   62.9      0  -22.9    -90      0           90  -22.9     -0   22.9     90      0            0  -10.9   -6.4   29.9  -23.6   19.5            0    -40  -58.1   55.2    2.9   11.3            1    500
+transition getUpFrontNao getUpFrontNao start
+transition getUpBackNao getUpBackNao start
+" ausholen
+
+                *      *           90   22.9      0  -22.9    -90      0           90  -62.9     -0   22.9     90      0            0  -10.9   -6.4   29.9  -23.6     18            0   -2.7  -58.1   55.2    2.9   11.3            1     20
+transition getUpFrontNao getUpFrontNao start
+transition getUpBackNao getUpBackNao start
+" kick fertig
+
+                *      *           90   22.9      0  -22.9    -90      0           90  -62.9     -0   22.9     90      0            0  -10.9   -6.4   29.9  -23.6     18            0   -2.7  -58.1   55.2    2.9   11.3            1    300
+transition getUpFrontNao getUpFrontNao start
+transition getUpBackNao getUpBackNao start
+" kick fertig
+
+                *      *           90   22.9      0  -22.9    -90      0           90  -22.9     -0   22.9     90      0            0  -10.9   -6.4   29.9  -23.6     18            0    -20  -58.1   55.2    2.9   11.3            1    500
+transition getUpFrontNao getUpFrontNao start
+transition getUpBackNao getUpBackNao start
+" ausholen
+
+                *      *           90   22.9      0  -22.9    -90      0           90  -22.9     -0   22.9     90      0            0  -10.9  -10.6   32.6    -22     18            0   -9.8     -8     25    -15   18.4            1   1000
+transition getUpFrontNao getUpFrontNao start
+transition getUpBackNao getUpBackNao start
+
+                *      *           90   22.9      0  -22.9    -90      0           90  -22.9     -0   22.9     90      0            0     -0  -13.8   39.1  -25.3     -0            0      0  -13.8   39.1  -25.3      0            1    500
+transition getUpFrontNao getUpFrontNao start
+transition getUpBackNao getUpBackNao start
+" stand
+
+transition allMotions extern start       

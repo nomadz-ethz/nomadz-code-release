@@ -1,0 +1,14 @@
+
+Nao
+---
+default configuration for SimRobot robots
+to use another robot configuration for simulations, change the attribute
+'configName=..' in the specific .ros2 scene file, for a specific robot
+
+Sim* directories
+----------------
+each contains a specific role for simulation: for a striker use
+  configName="SimStriker"
+in your .ros2 scene file
+
+

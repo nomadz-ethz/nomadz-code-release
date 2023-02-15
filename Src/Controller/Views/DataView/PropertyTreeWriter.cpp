@@ -1,0 +1,38 @@
+/**
+ * @file PropertyTreeCreator.cpp
+ *
+ * This file implements a helper class to write the property tree to a stream.
+ *
+ * This file is subject to the terms of the BHuman 2013 License.
+ * A copy of this license is included in LICENSE.B-Human.txt.
+ * (c) 2022 BHuman and NomadZ team
+ *
+ * @note The original author is Thomas Röfer
+ */
+
+#include "PropertyTreeWriter.h"
+
+void PropertyTreeWriter::inUInt(unsigned int& value) {
+  Entry& e = stack.back();
+  if (e.type == -1) { // array size
+    value = (unsigned)e.property->subProperties().size();
+  } else {
+    in(value);
+  }
+}
+
+void PropertyTreeWriter::inAngle(Angle& value) {
+  Entry& e = stack.back();
+  value = propertyManager.value(e.property).value<AngleWithUnity>();
+}
+
+void PropertyTreeWriter::select(const char* name, int type, const char* (*enumToString)(unsigned char)) {
+  Entry& e = stack.back();
+  const QtProperty* property;
+  if (stack.size() == 1 && e.property->subProperties().empty()) { // whole tree contains a single property
+    property = e.property;                                        // select this only property
+  } else {
+    property = e.property->subProperties().at(e.index++); // otherwise enumerate properties
+  }
+  stack.push_back(Entry(property, type));
+}
