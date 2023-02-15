@@ -1,0 +1,26 @@
+mr CameraCalibration CameraCalibratorV4
+mr RobotPose CameraCalibratorV4
+cameraCalibrator raw on
+
+vid raw representation:LineAnalysis:Image off
+vid raw representation:GoalPercept:Image off
+vid raw representation:BodyContour off
+vid raw module:CameraCalibratorV4:points
+vid raw module:CameraCalibratorV4:drawSamples
+vid raw module:CameraCalibratorV4:drawFieldLines
+
+set module:CameraCalibratorV4:currentCamera upper;
+set module:CameraCalibratorV4:robotPose rotation = 1.57; translation = {x = 0; y = -600;};
+get module:CameraCalibratorV4:currentCamera
+get module:CameraCalibratorV4:robotPose
+
+echo LAN connection is recommended for calibration.
+echo dr module:CameraCalibratorV4:collectPoints
+echo dr module:CameraCalibratorV4:pointMode
+echo dr module:CameraCalibratorV4:lineMode
+echo dr module:CameraCalibratorV4:undo
+echo dr module:CameraCalibratorV4:optimize
+echo dr module:CameraCalibratorV4:clear
+echo dr module:CameraCalibratorV4:stop
+
+vd representation:HeadAngleRequest

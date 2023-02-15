@@ -1,0 +1,30 @@
+motion_id = standHigh
+
+label start
+
+" set hardness higher for arms for standing up from sitting
+hardness       40     40           40     40     40     40     40     40           40     40     40     40     40     40           70     70     70     70     70     70           70     70     70     70     70     70            0
+
+"              HY     HP          LSP    LSR    LEY    LER    LWY     LH          RSP    RSR    REY    RER    RWY     RH         LHYP    LHR    LHP    LKP    LAP    LAR         RHYP    RHR    RHP    RKP    RAP    RAR          Int    Dur
+                *      *           90   11.5      0      0    -90      0           90  -11.5     -0     -0     90      0            0     -0   -1.5      0      0     -0            0      0   -1.5      0      0      0            1   1000
+
+" a chance to leave after one second
+transition allMotions extern start
+
+" still set hardness higher for arms for standing up from sitting
+
+                *      *           90   11.5      0      0    -90      0           90  -11.5     -0     -0     90      0            0     -0   -1.5      0      0     -0            0      0   -1.5      0      0      0            1   1000
+
+" a chance to leave after two seconds
+transition allMotions extern start
+
+" from now on, use default hardness for arms
+label loop
+
+hardness        *      *           40     40     40     40     40     40           40     40     40     40     40     40           40     40     40     40     60     60           40     40     40     40     60     60            0
+
+                *      *           90   11.5      0      0    -90      0           90  -11.5     -0     -0     90      0            0     -0   -1.5      0      0     -0            0      0   -1.5      0      0      0            1   1000
+
+transition standHigh standHigh loop
+transition allMotions extern start
+

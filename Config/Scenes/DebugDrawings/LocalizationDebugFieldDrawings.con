@@ -1,0 +1,10 @@
+# lines
+vfd worldState module:LineLocator:poses
+
+# self locator
+vfd worldState representation:RobotPoseSamples
+vfd worldState representation:RobotPose
+vfd worldState module:SelfLocator:fov
+vfd worldState module:SelfLocator:correcting
+vfd worldState module:SelfLocator:matches
+vfd worldState module:SelfLocator:corrected

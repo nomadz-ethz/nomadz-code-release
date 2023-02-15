@@ -1,0 +1,8 @@
+# Changes the providers of Cognition representations relying on image processing
+# to GroundTruthProvider. Useful when running the perception pipeline is not required 
+# e.g. when testing motion control or when perfect perception is required e.g. for
+# testing basic behavior logic
+
+mr RobotPose GroundTruthProvider
+mr BallModel GroundTruthProvider
+mr PlayerPercept GroundTruthProvider

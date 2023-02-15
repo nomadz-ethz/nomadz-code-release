@@ -1,0 +1,38 @@
+# run these only on one robot
+dr debugDrawing3d:representation:GameInfo
+dr debugDrawing3d:representation:TeamInfo
+
+# in case we have more than a single robot
+robot all
+
+# Fast, because we do not compute images 
+ci off
+mr Image default
+
+# Activate ground truth on models
+mr BallModel GroundTruthProvider
+mr PlayerModel GroundTruthProvider
+mr RobotPose GroundTruthProvider
+
+# Deactivate unused modules
+mr HeadMotionRequest default
+mr ImageAcquisition off
+mr RobotHealth default
+mr Thumbnail off
+
+# Deactivate modules depending on images
+mr FieldBoundary default 
+
+mr BallPercept default
+mr GoalPercept default
+mr LineAnalysis default
+mr LinePercept default
+mr PenaltyMarkPercept default
+mr PlayerPercept default
+
+mr BallSpots off
+mr ShapePercept off
+
+mr ColorReference default
+mr BodyContour default
+mr RobotPoseSamples default

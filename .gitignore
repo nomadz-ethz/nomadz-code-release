@@ -1,0 +1,47 @@
+# Files
+*.bmp
+*.o
+*.class
+*.pyc
+*.backup
+*.bak
+
+# Backup files (ie. from TextEditor)
+*~
+
+
+# eclipse
+/.cproject
+/.project
+/.settings
+/Config/Logs
+
+# IntelliJ
+*.idea
+cmake-build-debug
+
+# Visual Studio Code
+.vscode
+
+# MacOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+Build
+Make/MacOS/B-Human.xcodeproj/project.pbxproj
+Make/MacOS/B-Human.xcodeproj/project.xcworkspace
+Make/MacOS/B-Human.xcodeproj/xcuserdata
+
+# NomadZ specific
+Make/LinuxNetBeans/NomadZ/*/
+Tools/GameController2017
+Config/Scenes/scriptconnect.con
+
+# GameController
+Util/GameController/logs*

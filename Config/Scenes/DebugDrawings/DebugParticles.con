@@ -1,0 +1,11 @@
+vd parameters:SelfLocator
+vid rawUpper representation:LineAnalysis:Image off
+vid rawUpper representation:LineAnalysis:rawSegs
+vid raw representation:LineAnalysis:Image off
+vid raw representation:LineAnalysis:rawSegs
+vfd worldState representation:LineAnalysis:Field off
+vfd worldState representation:RobotPoseSamples
+vfd worldState module:SelfLocator:povs
+vfd worldState module:SelfLocator:povsOverlay
+vfd worldState origin:RobotPose
+vfd worldState representation:LineAnalysis:projectedRawSegs

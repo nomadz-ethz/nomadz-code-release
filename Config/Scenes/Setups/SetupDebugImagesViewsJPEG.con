@@ -1,0 +1,8 @@
+# Setup debug images views using JPEG compression
+# In this way, the images will first be compressed using libjpeg
+# before being sent back to the Host PC for remote debugging through SimRobot.
+# This should always be used when connecting to the robots to SimRobot!
+
+vi image jpeg raw gain 1.0
+vi image jpeg upperCam rawUpper gain 1.0
+vi shapes upperCam shapes

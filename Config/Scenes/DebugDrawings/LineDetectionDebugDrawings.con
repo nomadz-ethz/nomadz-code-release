@@ -1,0 +1,7 @@
+vid rawUpper representation:PenaltyMarkPercept:Image
+vid rawUpper representation:LineAnalysis:Image
+vid rawUpper module:ObjectPerceptor:patches
+
+vid raw representation:PenaltyMarkPercept:Image
+vid raw module:ObjectPerceptor:patches
+vid raw representation:LineAnalysis:Image

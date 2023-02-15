@@ -1,0 +1,7 @@
+vfd worldState module:FieldCoverageProvider:FieldView
+
+vfd worldState representation:CombinedWorldModel
+vfd worldState module:CombinedWorldModelProvider:Allies
+vfd worldState module:CombinedWorldModelProvider:Opponents
+vfd worldState module:CombinedWorldModelProvider:Ball
+vfd worldState module:CombinedWorldModelProvider:BallOthers

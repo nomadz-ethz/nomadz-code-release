@@ -1,0 +1,9 @@
+dr off
+dr representation:CameraInfo
+dr representation:CameraMatrix
+dr representation:Image
+log jpeg
+
+echo log start
+echo log stop
+echo log save images

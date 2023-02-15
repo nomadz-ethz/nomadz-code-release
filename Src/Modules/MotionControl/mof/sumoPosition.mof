@@ -1,0 +1,16 @@
+motion_id = sumoPosition       
+
+label start         
+
+hardness        *      *            *      *      *      *      *      *            *      *      *      *      *      *           10     10     10     10     10     10           10     10     10     10     10     10          500
+label repeat
+
+"              HY     HP          LSP    LSR    LEY    LER    LWY     LH          RSP    RSR    REY    RER    RWY     RH         LHYP    LHR    LHP    LKP    LAP    LAR         RHYP    RHR    RHP    RKP    RAP    RAR          Int    Dur
+                *      *         60.5   33.3   20.2   -2.4    -90      0         54.2  -32.2  -15.6    1.1     90      0        -67.6   42.6  -95.9  118.2     17  -17.1        -67.6  -42.9  -97.7  125.3   12.3   13.3            1   1500
+
+transition genuflect sumoPosition repeat
+
+hardness        *      *            *      *      *      *      *      *            *      *      *      *      *      *            *      *      *      *      *      *            *      *      *      *      *      *          500
+transition getUpFrontNao getUpFrontNao start
+transition getUpBackNao getUpBackNao start
+transition allMotions afterGenuflect start       

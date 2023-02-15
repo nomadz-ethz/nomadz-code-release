@@ -1,0 +1,26 @@
+mr JointCalibration JointCalibrator
+echo
+vd representation:JointCalibration
+vd module:JointCalibrator:offsets
+
+echo call JointCalibrationStandPos
+
+vd module:JointCalibrator:offsets
+
+echo dr module:JointCalibrator:reset
+echo dr module:JointCalibrator:standPosReset
+
+echo
+echo call JointCalibrationStandPosStiff
+echo dr module:JointCalibrator:captureJointPlay
+echo
+#echo call WalkForward
+#echo call WalkBackwards
+#echo call WalkLeft
+#echo call WalkRight
+#echo call WalkStop
+#echo call KickLeft
+#echo call KickRight
+#echo
+echo save representation:JointCalibration
+echo

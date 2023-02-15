@@ -1,0 +1,11 @@
+[Unit]
+Description=Default wireless connection
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/sudo /bin/bash /home/nao/bin/wireless.sh start
+ExecStop=/usr/bin/sudo /bin/bash /home/nao/bin/wireless.sh stop
+
+[Install]
+WantedBy=default.target

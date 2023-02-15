@@ -1,0 +1,4 @@
+# Setup debug images views
+vi image raw
+vi image upperCam rawUpper
+vi shapes upperCam shapes

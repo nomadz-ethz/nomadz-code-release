@@ -1,0 +1,13 @@
+[Unit]
+Description=Bridge between Nao and framework
+Requires=lola.service
+After=lola.service
+
+[Service]
+ExecStart=/home/nao/bin/naobridge
+Environment=LD_LIBRARY_PATH=/home/nao/lib HOME=/home/nao
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

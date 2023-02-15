@@ -1,0 +1,20 @@
+# connect to a robot
+call connect
+
+# setup debug images and field views
+call SetupDebugImagesViewsJPEG
+call SetupWorldStateFieldView
+
+# debug field drawings
+call LocalizationDebugDrawings
+call DebugFieldDrawings
+
+call SetupBasicDataViews
+
+# press any key to activate the joystick 
+jc press 1 call Joystick
+jc press 2 call Joystick
+jc press 3 call Joystick
+jc press 4 call Joystick
+
+echo dr representation:JPEGImage off

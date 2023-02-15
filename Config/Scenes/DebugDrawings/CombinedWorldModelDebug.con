@@ -1,0 +1,11 @@
+vf CombinedWorldModel
+vfd CombinedWorldModel fieldLines
+vfd CombinedWorldModel fieldPolygons
+vfd CombinedWorldModel representation:RobotPoseSamples
+vfd CombinedWorldModel representation:RobotPose
+vfd CombinedWorldModel module:FieldCoverageProvider:FieldView
+vfd CombinedWorldModel module:LineLocator:poses
+vfd CombinedWorldModel module:CombinedWorldModelProvider:Allies
+vfd CombinedWorldModel module:CombinedWorldModelProvider:Opponents
+vfd CombinedWorldModel module:CombinedWorldModelProvider:Ball
+vfd CombinedWorldModel module:CombinedWorldModelProvider:BallOthers

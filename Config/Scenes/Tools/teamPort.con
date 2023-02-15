@@ -1,0 +1,4 @@
+# This enables listening to the team communication.
+# You have to adjust the UDP port and the subnet appropriately.
+tc 10033 10.0.255.255
+tc2 10005 10.0.255.255
