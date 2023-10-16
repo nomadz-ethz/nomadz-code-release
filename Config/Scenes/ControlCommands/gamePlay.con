@@ -1,0 +1,1 @@
+set representation:GameInfo competitionType = 0; gamePhase = 0; state = 3; setPlay = 0; firstHalf = 1; kickingTeam = 1; secsRemaining = 600; timeLastPackageReceived = 0; ballInPlay = true;

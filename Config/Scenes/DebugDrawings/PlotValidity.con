@@ -1,0 +1,8 @@
+vp validity 600 0 1
+vpd validity module:SelfLocator:validity black
+vpd validity module:SelfLocator:validity0 red
+vpd validity module:SelfLocator:validity1 orange
+vpd validity module:SelfLocator:validity2 yellow
+vpd validity module:SelfLocator:validity3 green
+vpd validity module:SelfLocator:validity4 blue
+vpd validity module:SelfLocator:validity5 blue

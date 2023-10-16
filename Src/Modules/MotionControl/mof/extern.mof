@@ -1,0 +1,61 @@
+motion_id = extern
+
+"This motion is entry point for SpecialAction from other motion modules
+
+label start
+
+"All mofs must be enumerated here
+
+transition playDead playDead start
+
+transition stand stand start
+transition standWide standWide start
+transition standHigh standHigh start
+transition relax relax start
+transition getUpBackNao getUpBackNao start
+transition getUpBackNao22 getUpBackNao22 start
+
+transition getUpFrontNao getUpFrontNao start
+transition getUpFrontNao22 getUpFrontNao22 start
+transition sitDown sitDown start
+transition sitDownKeeper sitDownKeeper start
+transition sumoPosition sumoPosition start
+transition genuflect genuflect start
+transition genuflect2 genuflect2 start
+transition genuflect2Up genuflect2Up start
+transition goUp goUp start
+transition kickSidewardsNao kickSidewardsNao start
+transition afterGenuflect afterGenuflect start
+transition keeperJumpLeft keeperJumpLeft start
+transition keeperStandJumpLeft keeperStandJumpLeft start
+transition keeperJumpLeftSim keeperJumpLeftSim start
+transition keeperJumpLeftPenalty keeperJumpLeftPenalty start
+transition keeperJumpLeftSign keeperJumpLeftSign start
+transition kickDiagonalNao kickDiagonalNao start
+transition stopBall stopBall start
+
+transition fallprotectionfront fallprotectionfront start
+transition fallprotectionback fallprotectionback start
+transition fallprotectionside fallprotectionside start
+
+transition jointCalibrationSit jointCalibrationSit start
+transition jointCalibrationStand jointCalibrationStand start
+transition jointCalibrationStandStiff jointCalibrationStandStiff start
+
+transition Ref_StandInit Ref_StandInit start
+transition Ref_KickInRight Ref_KickInRight start
+transition Ref_KickInLeft Ref_KickInLeft start
+transition Ref_GoalKickRight Ref_GoalKickRight start
+transition Ref_GoalKickLeft Ref_GoalKickLeft start
+transition Ref_CornerKickRight Ref_CornerKickRight start
+transition Ref_CornerKickLeft Ref_CornerKickLeft start
+transition Ref_GoalRight Ref_GoalRight start
+transition Ref_GoalLeft Ref_GoalLeft start
+transition Ref_PushingFreeKickRight Ref_PushingFreeKickRight start
+transition Ref_PushingFreeKickLeft Ref_PushingFreeKickLeft start
+transition Ref_FullTime Ref_FullTime start
+transition Ref_PlayerExchangeRight Ref_PlayerExchangeRight start
+transition Ref_PlayerExchangeLeft Ref_PlayerExchangeLeft start
+
+"This line must be the last one
+transition extern extern start

@@ -1,0 +1,26 @@
+name: clang-format check
+on:
+  push:
+    branches:
+      - develop
+      - master
+  pull_request:
+    branches:
+      - develop
+      - master
+
+jobs:
+  clang-format:
+    name: Run clang-format on C/C++ files
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Install clang-format
+        run: sudo apt-get install clang-format-10
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Run formatt all script
+        run: |
+          ./.format-all.sh

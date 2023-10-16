@@ -1,0 +1,17 @@
+# Enable the new walking engine
+mr WalkingEngineOutput WalkingEngine
+echo Enabled rUNSWift walk
+
+# mr ... off to turn off the Cognition process that provides this representation
+mr MotionRequest off
+mr MotionRequest JoystickController
+mr HeadAngleRequest off
+mr HeadAngleRequest JoystickController
+mr JoystickControl JoystickController
+mr JoystickImageControl JoystickImageController
+echo Ignore the two "no provider" errors above, it's ok
+
+vd parameters:JoystickController
+vd representation:HeadAngleRequest
+vd representation:MotionRequest
+

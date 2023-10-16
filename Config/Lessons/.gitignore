@@ -1,0 +1,5 @@
+# Ignore everything in this directory. Let's not start adding Teach tool Lessons to the repo.
+*
+
+# But keep this file
+!.gitignore

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(RandomForestTrainer)
+find_package(OpenCV REQUIRED)
+include_directories(../../../Tools/RandomForest)
+add_executable(RandomForestTrainer RandomForestTrainer.cpp)
+target_link_libraries(RandomForestTrainer ${OpenCV_LIBS})

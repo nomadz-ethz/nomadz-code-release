@@ -1,0 +1,1 @@
+set representation:MotionRequest diff motion = specialAction; specialActionRequest = {specialAction = getUpFrontNao22; mirror = false;};

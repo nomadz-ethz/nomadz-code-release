@@ -1,0 +1,69 @@
+name: build nomadz
+on:
+  push:
+    branches:
+      - develop
+      - master
+  pull_request:
+    branches:
+      - develop
+      - master
+
+permissions:
+  contents: read
+  packages: read
+
+jobs:
+  host:
+    name: build host
+    runs-on: ubuntu-20.04
+    container:
+      image: ghcr.io/nomadz-ethz/nomadz-ci:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: Prepare ccache timestamp
+        id: ccache_cache_timestamp
+        run: |
+          echo "timestamp=$(date -u "+%Y-%m-%d-%H;%M;%S")" >> "$GITHUB_OUTPUT"
+    
+      - name: Restore ccache cache
+        id: ccache_cache
+        uses: actions/cache@v3
+        with:
+          path: .ccache
+          key: ccache-${{ steps.ccache_cache_timestamp.outputs.timestamp }}
+          # download the latest entry if no exact match is found
+          restore-keys: |
+            ccache-
+
+      - name: Configure host build
+        run: |
+          cmake -G Ninja -B Build/Host -S . \
+            -DCMAKE_BUILD_TYPE=Debug \
+            -DYOCTO_SDK=none \
+            -DNOMADZ_TARGET=host \
+            -DENABLE_TFLITE=FALSE \
+            -DENABLE_ROS=FALSE
+
+      - name: Build host
+        # configure ccache then build
+        run: |
+          export CCACHE_BASEDIR=$(realpath ${GITHUB_WORKSPACE})
+          export CCACHE_DIR=${CCACHE_BASEDIR}/.ccache
+          export CCACHE_COMPRESS=1
+          export CCACHE_COMPRESSLEVEL=6
+          export CCACHE_MAXSIZE=500M
+          ccache --show-config
+          ccache --zero-stats
+          cmake --build Build/Host -j $(nproc)
+
+      - name: Show ccache statistics
+        run: |
+          export CCACHE_BASEDIR=${GITHUB_WORKSPACE}
+          export CCACHE_DIR=${CCACHE_BASEDIR}/.ccache
+          ccache --show-stats

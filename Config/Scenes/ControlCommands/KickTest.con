@@ -1,0 +1,1 @@
+set representation:MotionRequest diff motion = kick; kickRequest = { kickMotionType = omniKickDefault; mirror = false; armsBackFix = false; boost = false; autoProceed = false; dynPoints = []; kickPower = 1.; kickAngle = 0.0;}; 

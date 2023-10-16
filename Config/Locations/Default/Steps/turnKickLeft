@@ -1,0 +1,83 @@
+steps = [
+  {
+    footPos = [
+      { rotation = 0; translation = { x = 0; y = 0.1; }; },
+      { rotation = 0; translation = { x = 0; y = 0; }; }
+    ];
+    duration = 24;
+    onFloor = [ false, true ];
+    footTraj = "";
+  },
+  {
+    footPos = [
+      { rotation = 0; translation = { x = 0; y = 0.1; }; },
+      { rotation = 0; translation = { x = 0; y = 0; }; }
+    ];
+    duration = 1;
+    onFloor = [ true, true ];
+    footTraj = "";
+  },
+  {
+    footPos = [
+      { rotation = 0; translation = { x = 0; y = 0.1; }; },
+      { rotation = -0.79; translation = { x = 0; y = 0; }; }
+    ];
+    duration = 24;
+    onFloor = [ true, false ];
+    footTraj = "";
+  },
+  {
+    footPos = [
+      { rotation = 0; translation = { x = 0; y = 0.1; }; },
+      { rotation = -0.79; translation = { x = 0; y = 0; }; }
+    ];
+    duration = 1;
+    onFloor = [ true, true ];
+    footTraj = "";
+  },
+  {
+    footPos = [
+      { rotation = -1.57; translation = { x = 0.1; y = 0; }; },
+      { rotation = -0.79; translation = { x = 0; y = 0; }; }
+    ];
+    duration = 18;
+    onFloor = [ false, true ];
+    footTraj = "";
+  },
+  {
+    footPos = [
+      { rotation = -1.57; translation = { x = 0.1; y = 0; }; },
+      { rotation = -0.79; translation = { x = 0; y = 0; }; }
+    ];
+    duration = 1;
+    onFloor = [ true, true ];
+    footTraj = "";
+  },
+  {
+    footPos = [
+      { rotation = -1.57; translation = { x = 0.1; y = 0; }; },
+      { rotation = -1.57; translation = { x = 0.0; y = 0; }; }
+    ];
+    duration = 24;
+    onFloor = [ true, false ];
+    footTraj = "";
+  },
+  {
+    footPos = [
+      { rotation = -1.57; translation = { x = 0.1; y = 0; }; },
+      { rotation = -1.57; translation = { x = 0.0; y = 0; }; }
+    ];
+    duration = 1;
+    onFloor = [ true, true ];
+    footTraj = "";
+  },
+  {
+    footPos = [
+      { rotation = -1.57; translation = { x = 0.1; y = 0; }; },
+      { rotation = -1.57; translation = { x = 0.0; y = 0; }; }
+    ];
+    duration = 24;
+    onFloor = [ false, true ];
+    footTraj = "";
+  }
+];

@@ -1,0 +1,19 @@
+motion_id = relax
+
+label start
+
+" set hardness higher for arms for standing up from sitting
+hardness       10     10           10     10     10     10     10     10           10     10     10     10     10     10           15     15     15     15     15     15           15     15     15     15     15     15            0
+
+"              HY     HP          LSP    LSR    LEY    LER    LWY     LH          RSP    RSR    REY    RER    RWY     RH         LHYP    LHR    LHP    LKP    LAP    LAR         RHYP    RHR    RHP    RKP    RAP    RAR          Int    Dur
+                *      *           90   11.5      0      0    -90      0           90  -11.5     -0     -0     90      0            0     -0      0      0      0     -0            0      0      0      0      0      0            1    500
+
+label loop
+
+hardness        *      *           10     10     10     10     10     10           10     10     10     10     10     10           15     15     15     15     15     15           15     15     15     15     15     15            0
+
+                *      *           90   11.5      0      0    -90      0           90  -11.5     -0     -0     90      0            0     -0      0      0      0     -0            0      0      0      0      0      0            1    500
+
+transition relax relax loop
+transition allMotions extern start
+

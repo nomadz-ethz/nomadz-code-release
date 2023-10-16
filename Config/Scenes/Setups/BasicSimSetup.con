@@ -1,0 +1,19 @@
+# Setup simulation providers for sensor-related
+# representations e.g. Image, JointData, SensorData etc.
+
+# cognition providers
+mr CameraInfo CognitionLogDataProvider
+mr Image CognitionLogDataProvider
+mr FrameInfo CognitionLogDataProvider
+mr GroundTruthWorldState CognitionLogDataProvider
+mr Thumbnail off 
+
+# motion providers
+mr FrameInfo MotionLogDataProvider
+mr JointData MotionLogDataProvider
+mr KeyStates MotionLogDataProvider
+mr SensorData MotionLogDataProvider
+
+# joint and us requests are required by simulation
+dr representation:JointRequest
+dr representation:USRequest

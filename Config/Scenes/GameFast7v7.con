@@ -1,0 +1,13 @@
+# activate simulation time
+st on
+
+# in case we have more than a single robot
+robot all
+
+call BasicSimSetup
+
+call Fast
+
+call SetupBasicDataViews
+
+call GameStates

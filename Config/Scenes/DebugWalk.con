@@ -1,0 +1,26 @@
+# activate simulation time
+st on
+
+# in case we have more than a single robot
+robot all
+
+call BasicSimSetup
+
+call UseCognitionSimGroundtruth
+
+call SetupWorldStateFieldView
+call LocalizationDebugFieldDrawings
+call GroundtruthFieldDrawings
+
+call SetupBasicDataViews
+
+call GameStates
+
+vd representation:PlannedSteps
+vd representation:WalkGeneratorData
+vd representation:MotionRequest
+vd representation:MotionInfo
+
+call gamePlay
+echo call WalkForward
+echo call DebugWalk22Plots

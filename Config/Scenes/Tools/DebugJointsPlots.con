@@ -1,0 +1,35 @@
+vp HYP 200 -50 50
+vpd HYP module:MotionCombinator:leftLegAngles[0] green1
+vpd HYP module:MotionCombinator:leftLegAnglesMeasured[0] green3
+vpd HYP module:MotionCombinator:rightLegAngles[0] red1
+vpd HYP module:MotionCombinator:rightLegAnglesMeasured[0] red3
+
+vp HR 200 -50 50
+vpd HR module:MotionCombinator:leftLegAngles[1] green1
+vpd HR module:MotionCombinator:leftLegAnglesMeasured[1] green3
+vpd HR module:MotionCombinator:rightLegAngles[1] red1
+vpd HR module:MotionCombinator:rightLegAnglesMeasured[1] red3
+
+vp HP 200 -50 50
+vpd HP module:MotionCombinator:leftLegAngles[2] green1
+vpd HP module:MotionCombinator:leftLegAnglesMeasured[2] green3
+vpd HP module:MotionCombinator:rightLegAngles[2] red1
+vpd HP module:MotionCombinator:rightLegAnglesMeasured[2] red3
+
+vp KP 200 -50 50
+vpd KP module:MotionCombinator:leftLegAngles[3] green1
+vpd KP module:MotionCombinator:leftLegAnglesMeasured[3] green3
+vpd KP module:MotionCombinator:rightLegAngles[3] red1
+vpd KP module:MotionCombinator:rightLegAnglesMeasured[3] red3
+
+vp AP 200 -50 50
+vpd AP module:MotionCombinator:leftLegAngles[4] green1
+vpd AP module:MotionCombinator:leftLegAnglesMeasured[4] green3
+vpd AP module:MotionCombinator:rightLegAngles[4] red1
+vpd AP module:MotionCombinator:rightLegAnglesMeasured[4] red3
+
+vp AR 200 -50 50
+vpd AR module:MotionCombinator:leftLegAngles[5] green1
+vpd AR module:MotionCombinator:leftLegAnglesMeasured[5] green3
+vpd AR module:MotionCombinator:rightLegAngles[5] red1
+vpd AR module:MotionCombinator:rightLegAnglesMeasured[5] red3

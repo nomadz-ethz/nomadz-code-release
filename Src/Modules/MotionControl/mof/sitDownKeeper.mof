@@ -1,0 +1,31 @@
+ motion_id = sitDownKeeper
+"sit down after standing
+
+label start
+
+"              HY     HP          LSP    LSR    LEY    LER    LWY     LH          RSP    RSR    REY    RER    RWY     RH         LHYP    LHR    LHP    LKP    LAP    LAR         RHYP    RHR    RHP    RKP    RAP    RAR          Int    Dur
+                *      *           94     17      0     -1    -90      0           94    -17     -0      1     90      0         -0.4   -1.9  -51.9  122.6    -70    1.7         -0.4   -0.6  -52.2  121.9  -70.7    0.6            1    500
+                *      *            *      *      *      *      *      *            *      *      *      *      *      *            *      *      *      *      *      *            *      *      *      *      *      *            0    100
+
+label repeat
+                *      *            *      *      *      *      *      *            *      *      *      *      *      *            *      *      *      *      *      *            *      *      *      *      *      *            0    100
+
+transition keeperJumpLeft keeperJumpLeft sitting
+transition keeperJumpLeftSim keeperJumpLeftSim sitting
+transition keeperJumpLeftPenalty keeperJumpLeftPenalty sitting
+transition genuflect genuflect sitdown
+transition sitDownKeeper sitDownKeeper repeat
+
+"prevent arms bending backwards when hit by ball
+"            LSP           RSP
+hardness        *      *           75      *      *      *      *      *           75      *      *      *      *      *            *      *      *      *      *      *            *      *      *      *      *      *          500
+
+transition allMotions goUp start       
+
+label sitdown
+                *      *            *      *      *      *      *      *            *      *      *      *      *      *        -46.7      *  -95.3      *   13.7  -33.3        -46.7      *  -94.9      *    9.5   26.5            1    100
+                *      *           40     34     23  -25.8    -90      0           40    -23    -10   25.8     90      0          0.1   -0.3  -57.9  123.8  -67.8   -0.2          0.1   -0.1  -57.7    124  -67.6   -0.1            1   1600
+                *      *         55.3   13.5   14.7  -35.8    -90      0         55.3  -13.5  -14.7   35.8     90      0          0.1   -0.3  -57.9  123.8  -67.8   -0.2          0.1   -0.1  -57.7    124  -67.6   -0.1            1    600
+
+transition sitDownKeeper sitDownKeeper repeat
+transition allMotions goUp start       

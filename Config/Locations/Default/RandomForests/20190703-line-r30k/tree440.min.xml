@@ -1,0 +1,4615 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<Tree>
+<MaxDepth>10</MaxDepth>
+<NumberRandomTestsPerNode>30000</NumberRandomTestsPerNode>
+<MinSamplesSplit>20</MinSamplesSplit>
+<MinSamplesLeaf>10</MinSamplesLeaf>
+<Base>
+<Type>0</Type>
+<Threshold>44</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+16 3</Pixel1>
+<Pixel2>
+10 15</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>47</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+4 11</Pixel1>
+<Pixel2>
+6 2</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>14</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+1 10</Pixel1>
+<Pixel2>
+3 1</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>13</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+21 10</Pixel1>
+<Pixel2>
+14 3</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>18</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+1 11</Pixel1>
+<Pixel2>
+1 5</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>63</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+16 15</Pixel1>
+<Pixel2>
+8 4</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>13</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+4 2</Pixel1>
+<Pixel2>
+18 9</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>10</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.3632955104112625e-03</P0>
+<P1>9.9063652753829956e-01</P1>
+<NumberElements>534</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+8 14</Pixel1>
+<Pixel2>
+18 14</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>6.4516127109527588e-02</P0>
+<P1>9.3548345565795898e-01</P1>
+<NumberElements>31</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+19 3</Pixel1>
+<Pixel2>
+5 11</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+4 17</Pixel1>
+<Pixel2>
+10 19</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>20</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>11</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999976158142090e-01</P0>
+<P1>0.</P1>
+<NumberElements>27</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>2</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+14 3</Pixel1>
+<Pixel2>
+3 13</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>8</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+15 22</Pixel1>
+<Pixel2>
+7 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.3693649768829346e-01</P0>
+<P1>6.3063070178031921e-02</P1>
+<NumberElements>111</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>17</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+9 7</Pixel1>
+<Pixel2>
+11 10</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.5833295583724976e-01</P0>
+<P1>4.1666667908430099e-02</P1>
+<NumberElements>48</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>159</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+8 6</Pixel1>
+<Pixel2>
+7 20</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>16</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+13 6</Pixel1>
+<Pixel2>
+3 22</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+21 22</Pixel1>
+<Pixel2>
+21 12</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999934434890747e-01</P1>
+<NumberElements>80</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>64</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000001192092896e+00</P1>
+<NumberElements>25</NumberElements></Right></Right></Right></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.8695409297943115e-01</P0>
+<P1>1.3043478131294250e-02</P1>
+<NumberElements>230</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>102</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+6 10</Pixel1>
+<Pixel2>
+1 4</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>11</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+12 20</Pixel1>
+<Pixel2>
+8 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9576389789581299e-01</P0>
+<P1>4.2372881434857845e-03</P1>
+<NumberElements>236</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>20</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+1 3</Pixel1>
+<Pixel2>
+7 17</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.6276843547821045e-01</P0>
+<P1>3.7234041839838028e-02</P1>
+<NumberElements>188</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>107</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+15 10</Pixel1>
+<Pixel2>
+6 19</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>25</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+2 9</Pixel1>
+<Pixel2>
+19 10</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+18 1</Pixel1>
+<Pixel2>
+22 4</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>14</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>11</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>3.0303029343485832e-02</P0>
+<P1>9.6969503164291382e-01</P1>
+<NumberElements>198</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>9</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+15 7</Pixel1>
+<Pixel2>
+18 9</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+16 20</Pixel1>
+<Pixel2>
+10 11</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>13</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000001192092896e+00</P1>
+<NumberElements>14</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.2523270845413208e-01</P0>
+<P1>7.4766345322132111e-02</P1>
+<NumberElements>107</NumberElements></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>6</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+18 7</Pixel1>
+<Pixel2>
+19 2</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>55</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+11 10</Pixel1>
+<Pixel2>
+0 4</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>9</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+6 10</Pixel1>
+<Pixel2>
+6 6</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>4.7619048506021500e-02</P0>
+<P1>9.5238149166107178e-01</P1>
+<NumberElements>42</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>9</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+8 9</Pixel1>
+<Pixel2>
+15 8</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>13</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.8958402872085571e-01</P0>
+<P1>1.0416666977107525e-02</P1>
+<NumberElements>96</NumberElements></Right></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.7359484434127808e-01</P0>
+<P1>2.6402639225125313e-02</P1>
+<NumberElements>303</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>4</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+19 10</Pixel1>
+<Pixel2>
+9 13</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>130</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+22 14</Pixel1>
+<Pixel2>
+21 20</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>8.8888871669769287e-01</P0>
+<P1>1.1111111193895340e-01</P1>
+<NumberElements>27</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+5 8</Pixel1>
+<Pixel2>
+5 15</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+11 3</Pixel1>
+<Pixel2>
+0 22</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+8 2</Pixel1>
+<Pixel2>
+15 6</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>257</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000014305114746e+00</P0>
+<P1>0.</P1>
+<NumberElements>274</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+15 5</Pixel1>
+<Pixel2>
+12 7</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999833106994629e-01</P0>
+<P1>0.</P1>
+<NumberElements>152</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000008344650269e+00</P0>
+<P1>0.</P1>
+<NumberElements>106</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+0 8</Pixel1>
+<Pixel2>
+8 3</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+9 3</Pixel1>
+<Pixel2>
+16 19</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000008344650269e+00</P0>
+<P1>0.</P1>
+<NumberElements>136</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000019073486328e+00</P0>
+<P1>0.</P1>
+<NumberElements>130</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+17 17</Pixel1>
+<Pixel2>
+18 21</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000025033950806e+00</P0>
+<P1>0.</P1>
+<NumberElements>184</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999886751174927e-01</P0>
+<P1>0.</P1>
+<NumberElements>173</NumberElements></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+8 17</Pixel1>
+<Pixel2>
+2 2</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+15 22</Pixel1>
+<Pixel2>
+9 8</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>17</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000002384185791e+00</P1>
+<NumberElements>18</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+16 0</Pixel1>
+<Pixel2>
+6 2</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+1 11</Pixel1>
+<Pixel2>
+18 21</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+15 3</Pixel1>
+<Pixel2>
+15 1</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000003576278687e+00</P0>
+<P1>0.</P1>
+<NumberElements>26</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>51</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+13 21</Pixel1>
+<Pixel2>
+17 20</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>15</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000002384185791e+00</P0>
+<P1>0.</P1>
+<NumberElements>22</NumberElements></Right></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000003576278687e+00</P0>
+<P1>0.</P1>
+<NumberElements>26</NumberElements></Right></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>11</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+23 5</Pixel1>
+<Pixel2>
+23 0</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>75</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+21 0</Pixel1>
+<Pixel2>
+13 15</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>17</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+21 8</Pixel1>
+<Pixel2>
+21 4</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>47</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+16 1</Pixel1>
+<Pixel2>
+7 12</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000002384185791e+00</P0>
+<P1>0.</P1>
+<NumberElements>22</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000002384185791e+00</P1>
+<NumberElements>18</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>118</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+5 15</Pixel1>
+<Pixel2>
+23 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>3.8461539149284363e-01</P0>
+<P1>6.1538463830947876e-01</P1>
+<NumberElements>13</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9761539697647095e-01</P0>
+<P1>2.3682652972638607e-03</P1>
+<NumberElements>1689</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>7</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+6 7</Pixel1>
+<Pixel2>
+9 2</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>13</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+17 6</Pixel1>
+<Pixel2>
+7 13</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>2.4793386459350586e-02</P0>
+<P1>9.7520744800567627e-01</P1>
+<NumberElements>121</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>28</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+17 12</Pixel1>
+<Pixel2>
+10 20</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+6 12</Pixel1>
+<Pixel2>
+7 1</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>8.1250000000000000e-01</P0>
+<P1>1.8750000000000000e-01</P1>
+<NumberElements>32</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+22 3</Pixel1>
+<Pixel2>
+8 21</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+7 0</Pixel1>
+<Pixel2>
+18 13</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000001192092896e+00</P1>
+<NumberElements>10</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999976158142090e-01</P1>
+<NumberElements>27</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999988079071045e-01</P1>
+<NumberElements>12</NumberElements></Right></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.8979556560516357e-01</P0>
+<P1>1.0204081423580647e-02</P1>
+<NumberElements>98</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>10</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+17 23</Pixel1>
+<Pixel2>
+8 16</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+21 0</Pixel1>
+<Pixel2>
+2 18</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+4 15</Pixel1>
+<Pixel2>
+12 23</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+20 23</Pixel1>
+<Pixel2>
+5 23</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999934434890747e-01</P0>
+<P1>0.</P1>
+<NumberElements>82</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+3 16</Pixel1>
+<Pixel2>
+1 5</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>20</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>17</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+3 19</Pixel1>
+<Pixel2>
+2 2</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>21</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+18 0</Pixel1>
+<Pixel2>
+1 3</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000003576278687e+00</P0>
+<P1>0.</P1>
+<NumberElements>36</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000003576278687e+00</P0>
+<P1>0.</P1>
+<NumberElements>26</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+8 7</Pixel1>
+<Pixel2>
+21 7</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+12 11</Pixel1>
+<Pixel2>
+8 1</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999982118606567e-01</P0>
+<P1>0.</P1>
+<NumberElements>89</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999976158142090e-01</P0>
+<P1>0.</P1>
+<NumberElements>27</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+8 0</Pixel1>
+<Pixel2>
+20 18</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+10 14</Pixel1>
+<Pixel2>
+20 16</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>15</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999958276748657e-01</P0>
+<P1>0.</P1>
+<NumberElements>54</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+11 14</Pixel1>
+<Pixel2>
+5 23</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000005960464478e+00</P0>
+<P1>0.</P1>
+<NumberElements>59</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999928474426270e-01</P0>
+<P1>0.</P1>
+<NumberElements>62</NumberElements></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+6 6</Pixel1>
+<Pixel2>
+23 5</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>19</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+11 4</Pixel1>
+<Pixel2>
+13 3</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>6.0869556665420532e-01</P0>
+<P1>3.9130431413650513e-01</P1>
+<NumberElements>23</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9428743124008179e-01</P0>
+<P1>5.7142856530845165e-03</P1>
+<NumberElements>350</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+18 3</Pixel1>
+<Pixel2>
+7 5</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+9 6</Pixel1>
+<Pixel2>
+13 2</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>10</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.1494252830743790e-02</P0>
+<P1>9.8850673437118530e-01</P1>
+<NumberElements>87</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>2</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+12 15</Pixel1>
+<Pixel2>
+2 20</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+19 0</Pixel1>
+<Pixel2>
+2 13</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999970197677612e-01</P0>
+<P1>0.</P1>
+<NumberElements>60</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>45</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>70</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+11 9</Pixel1>
+<Pixel2>
+11 13</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>2.2222222760319710e-02</P0>
+<P1>9.7777777910232544e-01</P1>
+<NumberElements>45</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>7.9999977350234985e-01</P0>
+<P1>1.9999997317790985e-01</P1>
+<NumberElements>50</NumberElements></Right></Right></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>15</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+19 23</Pixel1>
+<Pixel2>
+12 15</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9935650825500488e-01</P0>
+<P1>5.6547374697402120e-04</P1>
+<NumberElements>12379</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>2</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+9 11</Pixel1>
+<Pixel2>
+8 0</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>120</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+3 11</Pixel1>
+<Pixel2>
+21 22</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>6</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+23 9</Pixel1>
+<Pixel2>
+14 17</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>19</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+20 9</Pixel1>
+<Pixel2>
+3 23</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.6511667966842651e-01</P0>
+<P1>3.4883718937635422e-02</P1>
+<NumberElements>172</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+5 22</Pixel1>
+<Pixel2>
+5 15</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>8.9041131734848022e-01</P0>
+<P1>1.0958904027938843e-01</P1>
+<NumberElements>73</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>6</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+10 18</Pixel1>
+<Pixel2>
+16 16</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>17</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>2.0512821152806282e-02</P0>
+<P1>9.7948718070983887e-01</P1>
+<NumberElements>195</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>4</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+13 6</Pixel1>
+<Pixel2>
+11 7</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>17</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+3 11</Pixel1>
+<Pixel2>
+16 16</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>16</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>6</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+21 14</Pixel1>
+<Pixel2>
+6 15</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>2.0000000298023224e-01</P0>
+<P1>8.0000007152557373e-01</P1>
+<NumberElements>10</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000007152557373e+00</P0>
+<P1>0.</P1>
+<NumberElements>68</NumberElements></Right></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9341857433319092e-01</P0>
+<P1>6.5789474174380302e-03</P1>
+<NumberElements>456</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>12</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+18 5</Pixel1>
+<Pixel2>
+10 3</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>36</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+14 2</Pixel1>
+<Pixel2>
+3 19</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.6376794576644897e-01</P0>
+<P1>3.6231882870197296e-02</P1>
+<NumberElements>138</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>2</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+21 2</Pixel1>
+<Pixel2>
+23 9</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>25</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.8867924809455872e-02</P0>
+<P1>9.8113155364990234e-01</P1>
+<NumberElements>53</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>15</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+15 5</Pixel1>
+<Pixel2>
+20 0</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>22</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+11 10</Pixel1>
+<Pixel2>
+2 1</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>16</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+1 13</Pixel1>
+<Pixel2>
+1 17</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>13</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>21</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+12 0</Pixel1>
+<Pixel2>
+13 15</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999994039535522e-01</P0>
+<P1>0.</P1>
+<NumberElements>47</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>39</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>21</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+8 14</Pixel1>
+<Pixel2>
+12 23</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>9</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+5 9</Pixel1>
+<Pixel2>
+17 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>3.5294118523597717e-01</P0>
+<P1>6.4705884456634521e-01</P1>
+<NumberElements>17</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.8876386880874634e-01</P0>
+<P1>1.1235955171287060e-02</P1>
+<NumberElements>178</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>85</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+23 10</Pixel1>
+<Pixel2>
+21 6</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>8.6111140251159668e-01</P0>
+<P1>1.3888889551162720e-01</P1>
+<NumberElements>36</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9958634376525879e-01</P0>
+<P1>3.9840638055466115e-04</P1>
+<NumberElements>2510</NumberElements></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>28</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+23 15</Pixel1>
+<Pixel2>
+12 7</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>26</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+16 13</Pixel1>
+<Pixel2>
+14 5</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>5.0847455859184265e-02</P0>
+<P1>9.4915306568145752e-01</P1>
+<NumberElements>59</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>72</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+8 17</Pixel1>
+<Pixel2>
+6 20</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>5.0000000745058060e-02</P0>
+<P1>9.5000016689300537e-01</P1>
+<NumberElements>20</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>15</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+8 18</Pixel1>
+<Pixel2>
+23 12</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>57</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+20 0</Pixel1>
+<Pixel2>
+16 22</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>25</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000001192092896e+00</P1>
+<NumberElements>14</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9731719493865967e-01</P0>
+<P1>2.6809652335941792e-03</P1>
+<NumberElements>373</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>8</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+3 5</Pixel1>
+<Pixel2>
+3 14</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>128</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+5 10</Pixel1>
+<Pixel2>
+7 19</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>10</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+12 0</Pixel1>
+<Pixel2>
+21 10</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9294465780258179e-01</P0>
+<P1>7.0588234812021255e-03</P1>
+<NumberElements>425</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>19</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+6 1</Pixel1>
+<Pixel2>
+6 22</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.8924654722213745e-01</P0>
+<P1>1.0752688162028790e-02</P1>
+<NumberElements>186</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>5.7396429777145386e-01</P0>
+<P1>4.2603561282157898e-01</P1>
+<NumberElements>169</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>15</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+1 7</Pixel1>
+<Pixel2>
+0 3</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>8</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+21 4</Pixel1>
+<Pixel2>
+19 9</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>4.3137255311012268e-01</P0>
+<P1>5.6862747669219971e-01</P1>
+<NumberElements>51</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000023841857910e+00</P0>
+<P1>0.</P1>
+<NumberElements>232</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>47</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+8 2</Pixel1>
+<Pixel2>
+9 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>8.9705944061279297e-01</P0>
+<P1>1.0294117778539658e-01</P1>
+<NumberElements>68</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9868720769882202e-01</P0>
+<P1>1.2764405691996217e-03</P1>
+<NumberElements>5484</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>47</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+19 0</Pixel1>
+<Pixel2>
+4 15</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+14 10</Pixel1>
+<Pixel2>
+14 11</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+9 1</Pixel1>
+<Pixel2>
+13 14</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999243021011353e-01</P0>
+<P1>0.</P1>
+<NumberElements>1407</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999421834945679e-01</P0>
+<P1>0.</P1>
+<NumberElements>1084</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+15 0</Pixel1>
+<Pixel2>
+3 22</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9997961521148682e-01</P0>
+<P1>0.</P1>
+<NumberElements>2568</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000486373901367e+00</P0>
+<P1>0.</P1>
+<NumberElements>3727</NumberElements></Right></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9263852834701538e-01</P0>
+<P1>7.3863631114363670e-03</P1>
+<NumberElements>1760</NumberElements></Right></Right></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>28</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+11 23</Pixel1>
+<Pixel2>
+14 9</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>11</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+9 16</Pixel1>
+<Pixel2>
+4 23</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>11</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+10 16</Pixel1>
+<Pixel2>
+10 23</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>6</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+0 14</Pixel1>
+<Pixel2>
+3 11</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>4</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+5 15</Pixel1>
+<Pixel2>
+13 11</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>22</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+2 1</Pixel1>
+<Pixel2>
+5 11</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+16 19</Pixel1>
+<Pixel2>
+0 13</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999988079071045e-01</P1>
+<NumberElements>12</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+5 13</Pixel1>
+<Pixel2>
+14 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>15</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+22 7</Pixel1>
+<Pixel2>
+14 8</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>10</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>15</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>9</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+12 1</Pixel1>
+<Pixel2>
+11 5</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>19</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+12 16</Pixel1>
+<Pixel2>
+3 9</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>15</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>16</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>3.6496350076049566e-03</P0>
+<P1>9.9634528160095215e-01</P1>
+<NumberElements>548</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>12</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+2 15</Pixel1>
+<Pixel2>
+3 17</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+2 21</Pixel1>
+<Pixel2>
+0 7</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000001192092896e+00</P1>
+<NumberElements>11</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999964237213135e-01</P1>
+<NumberElements>57</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>57</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+20 12</Pixel1>
+<Pixel2>
+15 8</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.8461723327636719e-01</P0>
+<P1>1.5384615398943424e-02</P1>
+<NumberElements>130</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+18 10</Pixel1>
+<Pixel2>
+22 15</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+7 5</Pixel1>
+<Pixel2>
+12 10</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999988079071045e-01</P1>
+<NumberElements>12</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000009536743164e+00</P0>
+<P1>0.</P1>
+<NumberElements>70</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+22 19</Pixel1>
+<Pixel2>
+17 10</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>5.7142857462167740e-02</P0>
+<P1>9.4285714626312256e-01</P1>
+<NumberElements>105</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>13</NumberElements></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>2</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+9 15</Pixel1>
+<Pixel2>
+17 9</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>30</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+18 22</Pixel1>
+<Pixel2>
+16 9</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>10</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+21 19</Pixel1>
+<Pixel2>
+21 12</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.6666668653488159e-01</P0>
+<P1>8.3333301544189453e-01</P1>
+<NumberElements>54</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>18</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+10 18</Pixel1>
+<Pixel2>
+4 13</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>5.8823529630899429e-02</P0>
+<P1>9.4117647409439087e-01</P1>
+<NumberElements>17</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.6951144933700562e-01</P0>
+<P1>3.0487803742289543e-02</P1>
+<NumberElements>164</NumberElements></Right></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>5.8823529630899429e-02</P0>
+<P1>9.4117724895477295e-01</P1>
+<NumberElements>136</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>6</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+14 14</Pixel1>
+<Pixel2>
+16 14</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>30</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+8 11</Pixel1>
+<Pixel2>
+15 7</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>32</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.4814816415309906e-01</P0>
+<P1>8.5185152292251587e-01</P1>
+<NumberElements>54</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>76</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+7 12</Pixel1>
+<Pixel2>
+0 13</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>2.2222222387790680e-01</P0>
+<P1>7.7777791023254395e-01</P1>
+<NumberElements>18</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>12</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+21 20</Pixel1>
+<Pixel2>
+17 20</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>5</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+4 6</Pixel1>
+<Pixel2>
+23 4</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>13</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.4565200805664062e-01</P0>
+<P1>5.4347828030586243e-02</P1>
+<NumberElements>92</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9806326627731323e-01</P0>
+<P1>1.9305018940940499e-03</P1>
+<NumberElements>518</NumberElements></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>85</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+18 23</Pixel1>
+<Pixel2>
+15 6</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9875032901763916e-01</P0>
+<P1>1.2650220887735486e-03</P1>
+<NumberElements>1581</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>18</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+23 17</Pixel1>
+<Pixel2>
+20 23</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>5</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+10 20</Pixel1>
+<Pixel2>
+20 19</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+21 2</Pixel1>
+<Pixel2>
+22 7</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999958276748657e-01</P0>
+<P1>0.</P1>
+<NumberElements>40</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+13 13</Pixel1>
+<Pixel2>
+18 12</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>17</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999988079071045e-01</P0>
+<P1>0.</P1>
+<NumberElements>12</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>6</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+9 19</Pixel1>
+<Pixel2>
+18 19</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000002384185791e+00</P0>
+<P1>0.</P1>
+<NumberElements>22</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>3.6697246134281158e-02</P0>
+<P1>9.6330171823501587e-01</P1>
+<NumberElements>109</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+4 15</Pixel1>
+<Pixel2>
+4 20</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>7</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+13 9</Pixel1>
+<Pixel2>
+23 3</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+8 3</Pixel1>
+<Pixel2>
+11 4</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>7</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+2 7</Pixel1>
+<Pixel2>
+16 9</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>10</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.3513513840734959e-02</P0>
+<P1>9.8648613691329956e-01</P1>
+<NumberElements>74</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>7</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+6 6</Pixel1>
+<Pixel2>
+9 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>16</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.6946460008621216e-01</P0>
+<P1>3.0534351244568825e-02</P1>
+<NumberElements>131</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>13</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+18 6</Pixel1>
+<Pixel2>
+7 3</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>3.1818181276321411e-01</P0>
+<P1>6.8181830644607544e-01</P1>
+<NumberElements>22</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>27</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+3 12</Pixel1>
+<Pixel2>
+13 21</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>8.8888871669769287e-01</P0>
+<P1>1.1111111193895340e-01</P1>
+<NumberElements>27</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999737739562988e-01</P0>
+<P1>0.</P1>
+<NumberElements>399</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9105042219161987e-01</P0>
+<P1>8.9552244171500206e-03</P1>
+<NumberElements>670</NumberElements></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>12</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+18 15</Pixel1>
+<Pixel2>
+17 23</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>9</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+23 15</Pixel1>
+<Pixel2>
+12 12</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>8</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+23 15</Pixel1>
+<Pixel2>
+20 21</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+20 15</Pixel1>
+<Pixel2>
+9 20</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>16</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+20 15</Pixel1>
+<Pixel2>
+15 23</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>4</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+23 16</Pixel1>
+<Pixel2>
+15 11</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+0 13</Pixel1>
+<Pixel2>
+3 7</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999827146530151e-01</P1>
+<NumberElements>146</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999964237213135e-01</P1>
+<NumberElements>57</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>82</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+8 15</Pixel1>
+<Pixel2>
+21 23</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999976158142090e-01</P1>
+<NumberElements>27</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.2857158184051514e-01</P0>
+<P1>7.1428574621677399e-02</P1>
+<NumberElements>14</NumberElements></Right></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000002384185791e+00</P0>
+<P1>0.</P1>
+<NumberElements>18</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>2</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+14 10</Pixel1>
+<Pixel2>
+12 6</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>3.0000001192092896e-01</P0>
+<P1>7.0000004768371582e-01</P1>
+<NumberElements>10</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+1 23</Pixel1>
+<Pixel2>
+4 10</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+18 1</Pixel1>
+<Pixel2>
+2 9</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999952316284180e-01</P0>
+<P1>0.</P1>
+<NumberElements>33</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999982118606567e-01</P0>
+<P1>0.</P1>
+<NumberElements>28</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+3 6</Pixel1>
+<Pixel2>
+1 14</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>21</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>16</NumberElements></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>7</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+12 18</Pixel1>
+<Pixel2>
+10 23</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>6</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+23 19</Pixel1>
+<Pixel2>
+3 23</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.8901100456714630e-02</P0>
+<P1>9.0109890699386597e-01</P1>
+<NumberElements>91</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>50</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+6 13</Pixel1>
+<Pixel2>
+12 6</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.5783299207687378e-01</P0>
+<P1>4.2168673127889633e-02</P1>
+<NumberElements>166</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>8</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+16 6</Pixel1>
+<Pixel2>
+19 11</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999988079071045e-01</P0>
+<P1>0.</P1>
+<NumberElements>12</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999958276748657e-01</P1>
+<NumberElements>40</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>13</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+5 15</Pixel1>
+<Pixel2>
+5 18</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.0909093618392944e-02</P0>
+<P1>9.0909111499786377e-01</P1>
+<NumberElements>22</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>42</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+20 12</Pixel1>
+<Pixel2>
+7 7</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+14 22</Pixel1>
+<Pixel2>
+11 15</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999874830245972e-01</P0>
+<P1>0.</P1>
+<NumberElements>301</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000027418136597e+00</P0>
+<P1>0.</P1>
+<NumberElements>239</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>60</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+14 15</Pixel1>
+<Pixel2>
+5 4</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>7.6862746477127075e-01</P0>
+<P1>2.3137255012989044e-01</P1>
+<NumberElements>255</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999946355819702e-01</P0>
+<P1>0.</P1>
+<NumberElements>243</NumberElements></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>9</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+23 16</Pixel1>
+<Pixel2>
+13 22</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>21</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+18 11</Pixel1>
+<Pixel2>
+17 6</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9348670244216919e-01</P0>
+<P1>6.5146577544510365e-03</P1>
+<NumberElements>307</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>7</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+3 16</Pixel1>
+<Pixel2>
+9 17</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>11</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+16 8</Pixel1>
+<Pixel2>
+15 1</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>8.5714298486709595e-01</P0>
+<P1>1.4285714924335480e-01</P1>
+<NumberElements>14</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.3333333656191826e-02</P0>
+<P1>9.8666602373123169e-01</P1>
+<NumberElements>75</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>2</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+23 13</Pixel1>
+<Pixel2>
+14 21</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>73</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+23 16</Pixel1>
+<Pixel2>
+23 20</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999988079071045e-01</P1>
+<NumberElements>12</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.8387008905410767e-01</P0>
+<P1>1.6129031777381897e-02</P1>
+<NumberElements>248</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+22 23</Pixel1>
+<Pixel2>
+0 16</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>10</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999982118606567e-01</P1>
+<NumberElements>37</NumberElements></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>12</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+4 1</Pixel1>
+<Pixel2>
+12 7</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9900120496749878e-01</P0>
+<P1>9.9552015308290720e-04</P1>
+<NumberElements>2009</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>11</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+18 15</Pixel1>
+<Pixel2>
+12 16</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+7 10</Pixel1>
+<Pixel2>
+5 2</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>4.8780485987663269e-02</P0>
+<P1>9.5121914148330688e-01</P1>
+<NumberElements>41</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.0123414993286133e-01</P0>
+<P1>9.8765432834625244e-02</P1>
+<NumberElements>81</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>11</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+0 9</Pixel1>
+<Pixel2>
+7 3</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9458742141723633e-01</P0>
+<P1>5.4012346081435680e-03</P1>
+<NumberElements>1296</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>46</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+4 10</Pixel1>
+<Pixel2>
+11 22</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>4.7619048506021500e-02</P0>
+<P1>9.5238095521926880e-01</P1>
+<NumberElements>21</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.4411331415176392e-01</P0>
+<P1>5.5900596082210541e-02</P1>
+<NumberElements>1610</NumberElements></Right></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+4 2</Pixel1>
+<Pixel2>
+23 14</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>6</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+14 13</Pixel1>
+<Pixel2>
+14 10</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>97</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+19 13</Pixel1>
+<Pixel2>
+19 22</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>8.5416638851165771e-01</P0>
+<P1>1.4583332836627960e-01</P1>
+<NumberElements>48</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>11</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+17 13</Pixel1>
+<Pixel2>
+14 12</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9161481857299805e-01</P0>
+<P1>8.3892615512013435e-03</P1>
+<NumberElements>596</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+0 19</Pixel1>
+<Pixel2>
+8 10</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+20 10</Pixel1>
+<Pixel2>
+6 22</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000499486923218e+00</P0>
+<P1>0.</P1>
+<NumberElements>5788</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9997848272323608e-01</P0>
+<P1>0.</P1>
+<NumberElements>4715</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+6 18</Pixel1>
+<Pixel2>
+22 22</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999791383743286e-01</P0>
+<P1>0.</P1>
+<NumberElements>417</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000059604644775e+00</P0>
+<P1>0.</P1>
+<NumberElements>610</NumberElements></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>48</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+18 17</Pixel1>
+<Pixel2>
+22 21</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>4</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+23 5</Pixel1>
+<Pixel2>
+8 2</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>3.2258063554763794e-02</P0>
+<P1>9.6774148941040039e-01</P1>
+<NumberElements>31</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+10 23</Pixel1>
+<Pixel2>
+1 4</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>10</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+22 15</Pixel1>
+<Pixel2>
+5 9</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999988079071045e-01</P0>
+<P1>0.</P1>
+<NumberElements>12</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>25</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>11</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+23 21</Pixel1>
+<Pixel2>
+4 22</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>7</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+17 7</Pixel1>
+<Pixel2>
+7 17</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+3 2</Pixel1>
+<Pixel2>
+20 14</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>29</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000002384185791e+00</P0>
+<P1>0.</P1>
+<NumberElements>43</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>21</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+13 5</Pixel1>
+<Pixel2>
+14 9</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+18 20</Pixel1>
+<Pixel2>
+14 21</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999916553497314e-01</P0>
+<P1>0.</P1>
+<NumberElements>328</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999570846557617e-01</P0>
+<P1>0.</P1>
+<NumberElements>454</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+13 16</Pixel1>
+<Pixel2>
+17 5</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999827146530151e-01</P0>
+<P1>0.</P1>
+<NumberElements>157</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999833106994629e-01</P0>
+<P1>0.</P1>
+<NumberElements>354</NumberElements></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>7</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+0 1</Pixel1>
+<Pixel2>
+10 6</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>23</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+3 23</Pixel1>
+<Pixel2>
+2 15</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+7 4</Pixel1>
+<Pixel2>
+2 5</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>6</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+2 5</Pixel1>
+<Pixel2>
+0 1</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>11</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999952316284180e-01</P1>
+<NumberElements>33</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+4 19</Pixel1>
+<Pixel2>
+0 18</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+2 4</Pixel1>
+<Pixel2>
+16 5</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999952316284180e-01</P0>
+<P1>0.</P1>
+<NumberElements>33</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000002384185791e+00</P0>
+<P1>0.</P1>
+<NumberElements>18</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+13 9</Pixel1>
+<Pixel2>
+23 4</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000003576278687e+00</P0>
+<P1>0.</P1>
+<NumberElements>30</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999982118606567e-01</P0>
+<P1>0.</P1>
+<NumberElements>23</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>29</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+7 13</Pixel1>
+<Pixel2>
+12 8</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>20</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+11 0</Pixel1>
+<Pixel2>
+13 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.5774698257446289e-01</P0>
+<P1>4.2253520339727402e-02</P1>
+<NumberElements>71</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9983632564544678e-01</P0>
+<P1>2.0610057981684804e-04</P1>
+<NumberElements>4852</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>28</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+18 12</Pixel1>
+<Pixel2>
+17 6</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000001192092896e+00</P1>
+<NumberElements>10</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>14</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+19 2</Pixel1>
+<Pixel2>
+9 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>8.1690180301666260e-01</P0>
+<P1>1.8309855461120605e-01</P1>
+<NumberElements>71</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000060796737671e+00</P0>
+<P1>0.</P1>
+<NumberElements>742</NumberElements></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>122</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+21 14</Pixel1>
+<Pixel2>
+23 11</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+23 17</Pixel1>
+<Pixel2>
+3 5</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>21</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+1 18</Pixel1>
+<Pixel2>
+11 3</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.8889017105102539e-01</P0>
+<P1>1.1111111380159855e-02</P1>
+<NumberElements>90</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>7</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+0 3</Pixel1>
+<Pixel2>
+7 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.6969652175903320e-01</P0>
+<P1>3.0303031206130981e-02</P1>
+<NumberElements>33</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.2925171852111816e-01</P0>
+<P1>8.7074875831604004e-01</P1>
+<NumberElements>147</NumberElements></Right></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9561280012130737e-01</P0>
+<P1>4.3859649449586868e-03</P1>
+<NumberElements>228</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>22</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+4 10</Pixel1>
+<Pixel2>
+10 20</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>10</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+9 11</Pixel1>
+<Pixel2>
+7 13</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>7.0175439119338989e-02</P0>
+<P1>9.2982423305511475e-01</P1>
+<NumberElements>57</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>8</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+12 22</Pixel1>
+<Pixel2>
+21 23</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000001192092896e+00</P1>
+<NumberElements>10</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000003576278687e+00</P0>
+<P1>0.</P1>
+<NumberElements>113</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>10</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+17 12</Pixel1>
+<Pixel2>
+1 4</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>11</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+21 19</Pixel1>
+<Pixel2>
+21 22</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.1596639156341553e-01</P0>
+<P1>8.4033615887165070e-02</P1>
+<NumberElements>357</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9907946586608887e-01</P0>
+<P1>9.4996835105121136e-04</P1>
+<NumberElements>3158</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>15</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+22 16</Pixel1>
+<Pixel2>
+16 11</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>6.2573099136352539e-01</P0>
+<P1>3.7426930665969849e-01</P1>
+<NumberElements>171</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.6581196784973145e-01</P0>
+<P1>3.4188035875558853e-02</P1>
+<NumberElements>819</NumberElements></Right></Right></Right></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>28</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+7 5</Pixel1>
+<Pixel2>
+22 13</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>13</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+19 9</Pixel1>
+<Pixel2>
+8 1</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>25</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+8 10</Pixel1>
+<Pixel2>
+7 4</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>17</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+6 10</Pixel1>
+<Pixel2>
+8 5</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>38</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+22 18</Pixel1>
+<Pixel2>
+11 1</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>7.1428579092025757e-01</P0>
+<P1>2.8571429848670959e-01</P1>
+<NumberElements>14</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>4.3415338732302189e-03</P0>
+<P1>9.9566447734832764e-01</P1>
+<NumberElements>691</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>24</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+14 15</Pixel1>
+<Pixel2>
+7 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.8412698507308960e-01</P0>
+<P1>1.5873016789555550e-02</P1>
+<NumberElements>63</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>4</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+7 23</Pixel1>
+<Pixel2>
+16 12</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+19 23</Pixel1>
+<Pixel2>
+14 1</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>4.3478261679410934e-02</P0>
+<P1>9.5652157068252563e-01</P1>
+<NumberElements>23</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+10 7</Pixel1>
+<Pixel2>
+2 22</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999952316284180e-01</P0>
+<P1>0.</P1>
+<NumberElements>31</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000003576278687e+00</P0>
+<P1>0.</P1>
+<NumberElements>30</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>33</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+22 0</Pixel1>
+<Pixel2>
+9 4</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000002384185791e+00</P0>
+<P1>0.</P1>
+<NumberElements>18</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>164</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+1 5</Pixel1>
+<Pixel2>
+19 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>6.3636362552642822e-01</P0>
+<P1>3.6363637447357178e-01</P1>
+<NumberElements>11</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999737739562988e-01</P1>
+<NumberElements>279</NumberElements></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>4</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+23 10</Pixel1>
+<Pixel2>
+19 13</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+22 8</Pixel1>
+<Pixel2>
+9 22</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+17 8</Pixel1>
+<Pixel2>
+8 8</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+2 16</Pixel1>
+<Pixel2>
+14 1</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+12 7</Pixel1>
+<Pixel2>
+7 7</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999994039535522e-01</P1>
+<NumberElements>47</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>35</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+14 2</Pixel1>
+<Pixel2>
+21 18</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>9.9999928474426270e-01</P1>
+<NumberElements>62</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>45</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+5 9</Pixel1>
+<Pixel2>
+22 10</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>3.0303031206130981e-02</P0>
+<P1>9.6969628334045410e-01</P1>
+<NumberElements>66</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>8.3333373069763184e-01</P0>
+<P1>1.6666667163372040e-01</P1>
+<NumberElements>42</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>7</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+12 22</Pixel1>
+<Pixel2>
+14 6</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>17</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.6296393871307373e-01</P0>
+<P1>3.7037037312984467e-02</P1>
+<NumberElements>108</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>5</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+3 8</Pixel1>
+<Pixel2>
+18 2</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>62</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+3 6</Pixel1>
+<Pixel2>
+18 14</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.8648613691329956e-01</P0>
+<P1>1.3513513840734959e-02</P1>
+<NumberElements>74</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>7</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+9 22</Pixel1>
+<Pixel2>
+23 6</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>21</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>2.9850745573639870e-02</P0>
+<P1>9.7014868259429932e-01</P1>
+<NumberElements>67</NumberElements></Right></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.7478991746902466e-01</P0>
+<P1>2.5210084393620491e-02</P1>
+<NumberElements>357</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>33</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+7 4</Pixel1>
+<Pixel2>
+4 15</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>44</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+20 11</Pixel1>
+<Pixel2>
+14 3</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>5</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+16 11</Pixel1>
+<Pixel2>
+15 1</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>74</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+10 11</Pixel1>
+<Pixel2>
+23 1</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>15</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+22 5</Pixel1>
+<Pixel2>
+12 11</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>21</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>6.6666670143604279e-02</P0>
+<P1>9.3333262205123901e-01</P1>
+<NumberElements>150</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>14</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+7 8</Pixel1>
+<Pixel2>
+12 10</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>13</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9173641204833984e-01</P0>
+<P1>8.2644624635577202e-03</P1>
+<NumberElements>121</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>115</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+18 10</Pixel1>
+<Pixel2>
+12 21</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+15 18</Pixel1>
+<Pixel2>
+22 4</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>5</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+11 0</Pixel1>
+<Pixel2>
+0 4</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.6000015735626221e-01</P0>
+<P1>3.9999999105930328e-02</P1>
+<NumberElements>25</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>2.3809524253010750e-02</P0>
+<P1>9.7619104385375977e-01</P1>
+<NumberElements>42</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.5833194255828857e-01</P0>
+<P1>4.1666664183139801e-02</P1>
+<NumberElements>192</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9536919593811035e-01</P0>
+<P1>4.6367850154638290e-03</P1>
+<NumberElements>647</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>21</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+7 4</Pixel1>
+<Pixel2>
+5 1</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+15 2</Pixel1>
+<Pixel2>
+16 21</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+11 0</Pixel1>
+<Pixel2>
+17 22</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000002384185791e+00</P0>
+<P1>0.</P1>
+<NumberElements>22</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>13</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000002384185791e+00</P1>
+<NumberElements>18</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9298250675201416e-01</P0>
+<P1>6.9741257466375828e-03</P1>
+<NumberElements>4445</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>15</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+21 17</Pixel1>
+<Pixel2>
+11 2</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>21</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+1 12</Pixel1>
+<Pixel2>
+12 6</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>2.8301887214183807e-02</P0>
+<P1>9.7169965505599976e-01</P1>
+<NumberElements>212</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>8</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+0 8</Pixel1>
+<Pixel2>
+4 12</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>5.7471264153718948e-02</P0>
+<P1>9.4252961874008179e-01</P1>
+<NumberElements>87</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>6</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+19 19</Pixel1>
+<Pixel2>
+4 23</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>2</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+11 10</Pixel1>
+<Pixel2>
+21 7</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>14</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000002384185791e+00</P1>
+<NumberElements>38</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.6666610240936279e-01</P0>
+<P1>3.3333335071802139e-02</P1>
+<NumberElements>120</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>116</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+17 11</Pixel1>
+<Pixel2>
+2 15</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>24</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+3 1</Pixel1>
+<Pixel2>
+2 19</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.5652157068252563e-01</P0>
+<P1>4.3478261679410934e-02</P1>
+<NumberElements>92</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>28</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+0 1</Pixel1>
+<Pixel2>
+3 19</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>7.4999994039535522e-01</P0>
+<P1>2.5000000000000000e-01</P1>
+<NumberElements>28</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>2.3668639361858368e-02</P0>
+<P1>9.7632926702499390e-01</P1>
+<NumberElements>169</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>39</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+15 3</Pixel1>
+<Pixel2>
+22 15</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>14</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+22 10</Pixel1>
+<Pixel2>
+9 5</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+13 17</Pixel1>
+<Pixel2>
+18 15</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>16</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>15</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>41</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+8 9</Pixel1>
+<Pixel2>
+8 16</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>7.0000004768371582e-01</P0>
+<P1>3.0000001192092896e-01</P1>
+<NumberElements>10</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000126361846924e+00</P0>
+<P1>0.</P1>
+<NumberElements>1107</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>5</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+10 17</Pixel1>
+<Pixel2>
+5 20</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>6</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+17 21</Pixel1>
+<Pixel2>
+10 19</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>2.0000001788139343e-01</P0>
+<P1>8.0000019073486328e-01</P1>
+<NumberElements>125</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>7.4844223260879517e-01</P0>
+<P1>2.5155887007713318e-01</P1>
+<NumberElements>481</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>15</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+14 10</Pixel1>
+<Pixel2>
+8 4</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>3.5714286565780640e-01</P0>
+<P1>6.4285743236541748e-01</P1>
+<NumberElements>70</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.4474411010742188e-01</P0>
+<P1>5.5258452892303467e-02</P1>
+<NumberElements>1122</NumberElements></Right></Right></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>28</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+6 23</Pixel1>
+<Pixel2>
+7 8</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>71</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+19 23</Pixel1>
+<Pixel2>
+5 8</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>19</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+17 15</Pixel1>
+<Pixel2>
+17 22</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>33</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+2 13</Pixel1>
+<Pixel2>
+7 8</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.8972332477569580e-01</P0>
+<P1>1.0273972526192665e-02</P1>
+<NumberElements>292</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+12 20</Pixel1>
+<Pixel2>
+16 19</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000002384185791e+00</P0>
+<P1>0.</P1>
+<NumberElements>18</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000002384185791e+00</P1>
+<NumberElements>22</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+4 19</Pixel1>
+<Pixel2>
+23 5</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+17 21</Pixel1>
+<Pixel2>
+13 4</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+15 0</Pixel1>
+<Pixel2>
+3 21</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+22 20</Pixel1>
+<Pixel2>
+0 10</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>24</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>32</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+1 4</Pixel1>
+<Pixel2>
+14 20</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000008344650269e+00</P0>
+<P1>0.</P1>
+<NumberElements>187</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>256</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+4 1</Pixel1>
+<Pixel2>
+17 7</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000007152557373e+00</P0>
+<P1>0.</P1>
+<NumberElements>68</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+2 22</Pixel1>
+<Pixel2>
+5 8</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999928474426270e-01</P0>
+<P1>0.</P1>
+<NumberElements>62</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999976158142090e-01</P0>
+<P1>0.</P1>
+<NumberElements>27</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+17 23</Pixel1>
+<Pixel2>
+23 5</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+23 17</Pixel1>
+<Pixel2>
+7 21</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999934434890747e-01</P0>
+<P1>0.</P1>
+<NumberElements>75</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+15 3</Pixel1>
+<Pixel2>
+6 11</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>25</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999988079071045e-01</P0>
+<P1>0.</P1>
+<NumberElements>12</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+13 19</Pixel1>
+<Pixel2>
+4 9</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+6 15</Pixel1>
+<Pixel2>
+22 4</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000008344650269e+00</P0>
+<P1>0.</P1>
+<NumberElements>84</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>63</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+19 12</Pixel1>
+<Pixel2>
+23 10</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999874830245972e-01</P0>
+<P1>0.</P1>
+<NumberElements>141</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9999815225601196e-01</P0>
+<P1>0.</P1>
+<NumberElements>293</NumberElements></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>12</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+3 15</Pixel1>
+<Pixel2>
+12 22</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>7</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+3 15</Pixel1>
+<Pixel2>
+21 2</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>42</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+17 7</Pixel1>
+<Pixel2>
+19 13</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>35</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>16</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+7 1</Pixel1>
+<Pixel2>
+3 16</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>14</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>44</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+15 7</Pixel1>
+<Pixel2>
+11 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>7.0000004768371582e-01</P0>
+<P1>3.0000001192092896e-01</P1>
+<NumberElements>10</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.3457950279116631e-03</P0>
+<P1>9.9065136909484863e-01</P1>
+<NumberElements>535</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>14</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+21 14</Pixel1>
+<Pixel2>
+19 12</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>2.6315789669752121e-02</P0>
+<P1>9.7368466854095459e-01</P1>
+<NumberElements>76</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>12</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+10 7</Pixel1>
+<Pixel2>
+15 23</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.7183001041412354e-01</P0>
+<P1>2.8169015422463417e-02</P1>
+<NumberElements>213</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>50</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+23 22</Pixel1>
+<Pixel2>
+4 2</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000004768371582e+00</P0>
+<P1>0.</P1>
+<NumberElements>71</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>3.5955050587654114e-01</P0>
+<P1>6.4044934511184692e-01</P1>
+<NumberElements>178</NumberElements></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>52</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+12 10</Pixel1>
+<Pixel2>
+10 17</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>12</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+1 10</Pixel1>
+<Pixel2>
+4 7</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>2.1276595070958138e-02</P0>
+<P1>9.7872596979141235e-01</P1>
+<NumberElements>188</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>7</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+17 18</Pixel1>
+<Pixel2>
+9 2</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000003576278687e+00</P1>
+<NumberElements>30</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>95</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+11 12</Pixel1>
+<Pixel2>
+3 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.</P1>
+<NumberElements>17</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.3232923746109009e-01</P0>
+<P1>6.7669175565242767e-02</P1>
+<NumberElements>133</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>9</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+6 18</Pixel1>
+<Pixel2>
+6 23</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>57</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+16 16</Pixel1>
+<Pixel2>
+15 11</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>48</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+12 1</Pixel1>
+<Pixel2>
+19 11</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.9999982118606567e-01</P0>
+<P1>0.</P1>
+<NumberElements>19</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>7.1428571827709675e-03</P0>
+<P1>9.9285656213760376e-01</P1>
+<NumberElements>140</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>12</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+0 18</Pixel1>
+<Pixel2>
+17 0</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.3750000000000000e-02</P0>
+<P1>9.0625000000000000e-01</P1>
+<NumberElements>32</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.4685828685760498e-01</P0>
+<P1>5.3140100091695786e-02</P1>
+<NumberElements>207</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>64</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+16 16</Pixel1>
+<Pixel2>
+16 23</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>9</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+9 14</Pixel1>
+<Pixel2>
+3 19</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>8.5714288055896759e-02</P0>
+<P1>9.1428655385971069e-01</P1>
+<NumberElements>70</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>8.8862198591232300e-01</P0>
+<P1>1.1137448251247406e-01</P1>
+<NumberElements>422</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>18</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+19 15</Pixel1>
+<Pixel2>
+2 23</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>7.6119351387023926e-01</P0>
+<P1>2.3880589008331299e-01</P1>
+<NumberElements>134</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.8953741788864136e-01</P0>
+<P1>1.0455105453729630e-02</P1>
+<NumberElements>1626</NumberElements></Right></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>13</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+16 9</Pixel1>
+<Pixel2>
+16 6</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>10</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+18 10</Pixel1>
+<Pixel2>
+6 14</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>10</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+18 10</Pixel1>
+<Pixel2>
+10 6</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>18</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+5 0</Pixel1>
+<Pixel2>
+8 15</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>9</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+17 4</Pixel1>
+<Pixel2>
+1 23</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>14</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+14 11</Pixel1>
+<Pixel2>
+0 7</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.5121914148330688e-01</P0>
+<P1>4.8780485987663269e-02</P1>
+<NumberElements>41</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>3.5714287310838699e-02</P0>
+<P1>9.6428555250167847e-01</P1>
+<NumberElements>28</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>18</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+15 3</Pixel1>
+<Pixel2>
+14 20</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>5.0000000000000000e-01</P0>
+<P1>5.0000000000000000e-01</P1>
+<NumberElements>18</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000016689300537e+00</P1>
+<NumberElements>199</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>10</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+21 10</Pixel1>
+<Pixel2>
+22 21</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>39</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+1 1</Pixel1>
+<Pixel2>
+7 11</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>5.5000007152557373e-01</P0>
+<P1>4.5000004768371582e-01</P1>
+<NumberElements>20</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>5.0914143212139606e-03</P0>
+<P1>9.9493229389190674e-01</P1>
+<NumberElements>4321</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>5</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+17 19</Pixel1>
+<Pixel2>
+2 14</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>7.9310351610183716e-01</P0>
+<P1>2.0689655840396881e-01</P1>
+<NumberElements>29</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.6153849735856056e-03</P0>
+<P1>9.9038368463516235e-01</P1>
+<NumberElements>104</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+15 10</Pixel1>
+<Pixel2>
+8 3</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>29</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+9 4</Pixel1>
+<Pixel2>
+15 11</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.0000001192092896e+00</P0>
+<P1>0.</P1>
+<NumberElements>11</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.8867924809455872e-02</P0>
+<P1>9.8113143444061279e-01</P1>
+<NumberElements>159</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>13</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+9 9</Pixel1>
+<Pixel2>
+17 12</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>3.1250000000000000e-02</P0>
+<P1>9.6875000000000000e-01</P1>
+<NumberElements>32</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>16</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+21 15</Pixel1>
+<Pixel2>
+15 7</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.8181818723678589e-01</P0>
+<P1>8.1818187236785889e-01</P1>
+<NumberElements>11</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.0000009536743164e+00</P0>
+<P1>0.</P1>
+<NumberElements>87</NumberElements></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>26</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+5 22</Pixel1>
+<Pixel2>
+12 3</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>95</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+6 14</Pixel1>
+<Pixel2>
+10 9</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>3.5714287310838699e-02</P0>
+<P1>9.6428555250167847e-01</P1>
+<NumberElements>28</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.5855110883712769e-01</P0>
+<P1>4.1450772434473038e-02</P1>
+<NumberElements>193</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>12</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+3 14</Pixel1>
+<Pixel2>
+5 1</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>12</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+17 3</Pixel1>
+<Pixel2>
+6 13</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>8.3333361148834229e-01</P0>
+<P1>1.6666667163372040e-01</P1>
+<NumberElements>30</NumberElements></Left>
+<Right>
+<Type>0</Type>
+<Threshold>21</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+17 21</Pixel1>
+<Pixel2>
+6 1</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>2.4175824224948883e-01</P0>
+<P1>7.5824177265167236e-01</P1>
+<NumberElements>91</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.5432098880410194e-03</P0>
+<P1>9.9846339225769043e-01</P1>
+<NumberElements>648</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>87</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+22 10</Pixel1>
+<Pixel2>
+9 14</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>179</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+19 11</Pixel1>
+<Pixel2>
+15 2</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.</P0>
+<P1>0.</P1>
+<NumberElements>15</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>2.6315791532397270e-02</P0>
+<P1>9.7368156909942627e-01</P1>
+<NumberElements>304</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>51</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+12 8</Pixel1>
+<Pixel2>
+9 17</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>8.6413222551345825e-01</P0>
+<P1>1.3586954772472382e-01</P1>
+<NumberElements>184</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>3.5249111056327820e-01</P0>
+<P1>6.4751017093658447e-01</P1>
+<NumberElements>522</NumberElements></Right></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>13</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+13 15</Pixel1>
+<Pixel2>
+12 10</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>6</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+18 14</Pixel1>
+<Pixel2>
+5 23</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>4</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+0 2</Pixel1>
+<Pixel2>
+11 14</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>8</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+20 1</Pixel1>
+<Pixel2>
+4 17</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>27</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+11 12</Pixel1>
+<Pixel2>
+0 2</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>0.</P0>
+<P1>1.0000002384185791e+00</P1>
+<NumberElements>18</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.9367159605026245e-01</P0>
+<P1>6.3291140832006931e-03</P1>
+<NumberElements>158</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>9</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+16 15</Pixel1>
+<Pixel2>
+8 12</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.1049724183976650e-02</P0>
+<P1>9.8895174264907837e-01</P1>
+<NumberElements>181</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>5.3513497114181519e-01</P0>
+<P1>4.6486461162567139e-01</P1>
+<NumberElements>185</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>2</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+7 15</Pixel1>
+<Pixel2>
+18 10</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>22</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+5 20</Pixel1>
+<Pixel2>
+20 6</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>2.0360824465751648e-01</P0>
+<P1>7.9638862609863281e-01</P1>
+<NumberElements>388</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>3.2533958554267883e-02</P0>
+<P1>9.6745973825454712e-01</P1>
+<NumberElements>5379</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>7</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+14 14</Pixel1>
+<Pixel2>
+1 9</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>1.8348623067140579e-02</P0>
+<P1>9.8165029287338257e-01</P1>
+<NumberElements>109</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>7.4137878417968750e-01</P0>
+<P1>2.5862070918083191e-01</P1>
+<NumberElements>116</NumberElements></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>91</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+18 10</Pixel1>
+<Pixel2>
+11 7</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>8</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+14 0</Pixel1>
+<Pixel2>
+16 16</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.0000009536743164e-01</P0>
+<P1>1.0000000149011612e-01</P1>
+<NumberElements>10</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>5.4200543090701103e-03</P0>
+<P1>9.9458211660385132e-01</P1>
+<NumberElements>369</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>48</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+14 15</Pixel1>
+<Pixel2>
+19 12</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>13</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+15 12</Pixel1>
+<Pixel2>
+13 4</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>5.5629152059555054e-01</P0>
+<P1>4.4370889663696289e-01</P1>
+<NumberElements>151</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.4876699149608612e-02</P0>
+<P1>9.0512037277221680e-01</P1>
+<NumberElements>527</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>18</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+4 4</Pixel1>
+<Pixel2>
+6 15</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>9.6317720413208008e-01</P0>
+<P1>3.6827195435762405e-02</P1>
+<NumberElements>353</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>5.4205590486526489e-01</P0>
+<P1>4.5794293284416199e-01</P1>
+<NumberElements>856</NumberElements></Right></Right></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>77</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+19 11</Pixel1>
+<Pixel2>
+10 15</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>54</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+10 11</Pixel1>
+<Pixel2>
+20 20</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>14</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+12 2</Pixel1>
+<Pixel2>
+22 22</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>9</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+6 3</Pixel1>
+<Pixel2>
+6 22</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>8.6413222551345825e-01</P0>
+<P1>1.3586954772472382e-01</P1>
+<NumberElements>184</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.9402980804443359e-01</P0>
+<P1>8.0596959590911865e-01</P1>
+<NumberElements>134</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>61</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+12 11</Pixel1>
+<Pixel2>
+0 1</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>6.1662081629037857e-02</P0>
+<P1>9.3836069107055664e-01</P1>
+<NumberElements>2611</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>4.4104826450347900e-01</P0>
+<P1>5.5895227193832397e-01</P1>
+<NumberElements>229</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>8</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+11 11</Pixel1>
+<Pixel2>
+0 15</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>1</Threshold>
+<Channel>1</Channel>
+<Pixel1>
+22 9</Pixel1>
+<Pixel2>
+18 5</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>2.4390234053134918e-01</P0>
+<P1>7.5609701871871948e-01</P1>
+<NumberElements>164</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>8.6432272195816040e-01</P0>
+<P1>1.3567838072776794e-01</P1>
+<NumberElements>199</NumberElements></Right></Left>
+<Right>
+<Type>1</Type>
+<P0>9.8479259014129639e-01</P0>
+<P1>1.5209125354886055e-02</P1>
+<NumberElements>263</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>102</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+18 14</Pixel1>
+<Pixel2>
+21 11</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>63</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+10 13</Pixel1>
+<Pixel2>
+12 1</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>197</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+18 14</Pixel1>
+<Pixel2>
+7 8</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>8.4246462583541870e-01</P0>
+<P1>1.5753428637981415e-01</P1>
+<NumberElements>146</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>1.2340962886810303e-01</P0>
+<P1>8.7657344341278076e-01</P1>
+<NumberElements>2593</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>3</Threshold>
+<Channel>0</Channel>
+<Pixel1>
+6 16</Pixel1>
+<Pixel2>
+2 18</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>4.7745433449745178e-01</P0>
+<P1>5.2254724502563477e-01</P1>
+<NumberElements>377</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>9.7761499881744385e-01</P0>
+<P1>2.2388059645891190e-02</P1>
+<NumberElements>268</NumberElements></Right></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>18</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+7 11</Pixel1>
+<Pixel2>
+7 6</Pixel2>
+<Left>
+<Type>0</Type>
+<Threshold>13</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+18 12</Pixel1>
+<Pixel2>
+18 17</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>4.5553155243396759e-02</P0>
+<P1>9.5444482564926147e-01</P1>
+<NumberElements>461</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>4.8931789398193359e-01</P0>
+<P1>5.1068556308746338e-01</P1>
+<NumberElements>468</NumberElements></Right></Left>
+<Right>
+<Type>0</Type>
+<Threshold>18</Threshold>
+<Channel>2</Channel>
+<Pixel1>
+9 17</Pixel1>
+<Pixel2>
+9 11</Pixel2>
+<Left>
+<Type>1</Type>
+<P0>3.3996742963790894e-01</P0>
+<P1>6.6003477573394775e-01</P1>
+<NumberElements>603</NumberElements></Left>
+<Right>
+<Type>1</Type>
+<P0>7.7536785602569580e-01</P0>
+<P1>2.2462825477123260e-01</P1>
+<NumberElements>10987</NumberElements></Right></Right></Right></Right></Right></Right></Right></Right></Right></Right></Base></Tree>
+</opencv_storage>

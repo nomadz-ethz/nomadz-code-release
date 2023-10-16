@@ -1,0 +1,36 @@
+# connect to a robot
+call scriptconnect
+
+# setup debug images and field views
+call SetupDebugImagesViewsJPEG
+call SetupWorldStateFieldView
+
+# debug drawings and field drawings
+call LocalizationDebugDrawings
+call BallDetectionDebugDrawings
+
+call SetupBasicDataViews
+
+# press any key to activate the joystick
+jc press 1 call Joystick
+jc press 2 call Joystick
+jc press 3 call Joystick
+jc press 4 call Joystick
+
+dr timing
+
+vfd worldState representation:CombinedWorldModel off
+vfd worldState module:CombinedWorldModelProvider:ProvidedInfo
+
+echo set representation:KeyStates pressed = [ false, false, false, false, true ];
+echo set representation:KeyStates pressed = [ false, false, false, false, false ];
+
+echo To turn off debug images run:
+echo dr representation:JPEGImage off
+
+echo To turn on localization drawings on the worldState field view:
+echo call LocalizationDebugFieldDrawings
+
+echo To turn on player detection debug drawings:
+echo call PlayerDetectionDebugDrawings
+

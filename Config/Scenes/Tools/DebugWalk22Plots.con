@@ -1,0 +1,72 @@
+vp orientation 500 -0.15 0.15
+vpd orientation module:SensorFilter:rawAngleX red1
+vpd orientation module:SensorFilter:angleX red3
+vpd orientation module:SensorFilter:rawAngleY green1
+vpd orientation module:SensorFilter:angleY green3
+
+vp footSupport 50 -1.5 1.5
+vpd footSupport module:FootSupportProvider:support red1
+vpd footSupport module:FootSupportProvider:switched green1
+vpd footSupport module:FootSupportProvider:predictedSwitched blue
+
+vp combined 200 -0.5 0.5
+vpd combined module:SensorFilter:rawGyroX red1
+vpd combined module:SensorFilter:angleX green1
+vpd combined module:SensorFilter:gyroAngleXSum blue
+
+vp joints 200 -0.5 0.5
+vpd joints module:MotionCombinator:rightLegAngles[1] red1
+vpd joints module:MotionCombinator:rightLegAngles[5] green
+
+vp soleY 200 -80 80
+vpd soleY module:RobotModel:soleLeftY red1
+vpd soleY module:Walk2022Generator:requestedFootLeftY green
+vpd soleY module:RobotModel:soleRightY red1
+vpd soleY module:Walk2022Generator:requestedFootRightY green
+
+vp soleX 200 -80 80
+vpd soleX module:RobotModel:soleLeftX red1
+vpd soleX module:Walk2022Generator:requestedFootLeftX green
+vpd soleX module:RobotModel:soleRightX red1
+vpd soleX module:Walk2022Generator:requestedFootRightX green
+
+vp originOffset 200 -80 80
+vpd originOffset module:Walk2022Generator:originOffsetX red1
+vpd originOffset module:Walk2022Generator:originOffsetY green
+
+vp com 200 -50 50
+vpd com module:RobotModel:centerOfMassX red1
+vpd com module:RobotModel:centerOfMassY green
+
+vp traj 200 -50 50
+vpd traj module:Walk2022Generator:trajX red1
+vpd traj module:Walk2022Generator:trajY green
+vpd traj module:Walk2022Generator:trajZ blue
+
+vp combinedX 200 -50 50
+vpd combinedX module:Walk2022Generator:trajX red1
+vpd combinedX module:RobotModel:centerOfMassX red2
+vpd combinedX module:Walk2022Generator:originOffsetX red3
+vpd combinedX module:Walk2022Generator:requestedFootLeftX green
+
+vp combinedY 200 -80 80
+vpd combinedY module:Walk2022Generator:trajY red1
+vpd combinedY module:RobotModel:centerOfMassY red2
+vpd combinedY module:Walk2022Generator:originOffsetY red3
+vpd combinedY module:Walk2022Generator:requestedFootLeftY green
+
+
+vd parameters:Walk2022Generator 
+
+echo set representation:MotionRequest diff mode = patternMode;
+echo set representation:MotionRequest unchanged
+
+echo mv 0 0 320 0 0 0
+
+#dr debugDrawing3d:representation:RobotModel:centerOfMass
+dr debugDrawing3d:representation:RobotPose
+
+dr debugDrawing3d:module:Walk2022Generator:nextStep
+dr debugDrawing3d:module:StepPlanner:plannedStep
+dr debugDrawing3d:module:Walk2022Generator:zmpController
+dr debugDrawing3d:module:validRegion

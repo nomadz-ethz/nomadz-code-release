@@ -1,0 +1,3 @@
+# Setup debug images views using the thumbnail image
+vi thumbnailDI raw
+vi thumbnailDI upperCam rawUpper

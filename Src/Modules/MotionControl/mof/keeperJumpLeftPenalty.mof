@@ -1,0 +1,26 @@
+motion_id = keeperJumpLeftPenalty
+
+label start         
+
+"sitDown
+"              HY     HP          LSP    LSR    LEY    LER    LWY     LH          RSP    RSR    REY    RER    RWY     RH         LHYP    LHR    LHP    LKP    LAP    LAR         RHYP    RHR    RHP    RKP    RAP    RAR          Int    Dur
+                -      -         90.1   21.9    0.2  -21.7    -90      0         90.3  -21.9   -0.1   22.2     90      0            0     -0  -61.8    121  -59.1     -0            0      0  -61.9  121.1    -59      0            1    100
+
+label sitting
+
+"roll hip sidewards
+
+                -      -        -47.6   53.9   -0.7   -0.9    -90      0         89.7  -21.4    0.3   22.6     90      0           14   15.4  -71.3  122.3  -67.2    6.5            0   23.7  -34.3   67.7  -33.3      3            1    400
+
+
+"deactivate joints
+
+                -      -            -      -      -      -      -      -            -      -      -      -      -      -            -      -      -      -      -      -            -      -      -      -      -      -            0    100
+
+                -      -       -118.8    3.4    2.5     -7    -90      0         45.1   20.8    7.4   58.4     90      0            2    -20  -59.9    114  -35.2    4.3            2   -9.5   -3.5    4.6  -31.4      0            1    500
+label repeat
+                -      -            -      -      -      -      -      -            -      -      -      -      -      -            -      -      -      -      -      -            -      -      -      -      -      -            0    100
+
+
+transition keeperJumpLeftPenalty keeperJumpLeftPenalty repeat
+transition allMotions extern start

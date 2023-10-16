@@ -1,0 +1,23 @@
+# Choose which representations to log before doing log start
+
+dr off
+dr representation:JPEGImage
+dr representation:CameraInfo
+dr representation:CameraMatrix
+dr representation:JointData
+dr representation:SensorData
+dr representation:ActivationGraph
+dr representation:BehaviorControlOutput
+dr representation:BallModel
+dr representation:BallPercept
+dr representation:LineAnalysis
+dr representation:OwnTeamInfo
+dr representation:PlayerPercept
+dr representation:RobotPose
+dr representation:RobotPoseSamples
+dr timing
+
+echo log jpeg
+echo log start
+echo log stop
+echo log save abc

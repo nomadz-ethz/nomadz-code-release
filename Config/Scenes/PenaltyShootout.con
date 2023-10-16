@@ -1,0 +1,21 @@
+# activate simulation time
+st on
+
+# in case we have more than a single robot
+robot all
+
+call BasicSimSetup
+call UseCognitionSimGroundtruth
+
+call SetupWorldStateFieldView
+call LocalizationDebugFieldDrawings
+call GroundtruthFieldDrawings
+
+call SetupDebugImagesViews
+call BallDetectionDebugDrawings
+
+call SetupBasicDataViews
+
+call GameStates
+
+dr timing

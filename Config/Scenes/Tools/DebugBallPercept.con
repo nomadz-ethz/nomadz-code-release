@@ -1,0 +1,8 @@
+vp orientation 500 -0.15 0.15
+vpd orientation module:SensorFilter:rawAngleX red1
+vpd orientation module:SensorFilter:angleX red3
+vpd orientation module:SensorFilter:rawAngleY green1
+vpd orientation module:SensorFilter:angleY green3
+
+vp ball 500 -100 100
+vpd ball representation:BallModel:py green
