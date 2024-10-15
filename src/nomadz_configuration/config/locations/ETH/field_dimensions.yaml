@@ -1,0 +1,15 @@
+field_length: 7.5
+field_width: 5.0
+line_width: 0.05
+penalty_mark_size: 0.1
+goal_area_length: 0.5
+goal_area_width: 1.87
+penalty_area_length: 1.375
+penalty_area_width: 3.35
+penalty_mark_distance: 1.085
+center_circle_diameter: 1.1
+border_strip_width: 0.265
+goal_width: 1.5
+goal_depth: 0.5
+goal_height: 0.8
+goal_post_diameter: 0.1

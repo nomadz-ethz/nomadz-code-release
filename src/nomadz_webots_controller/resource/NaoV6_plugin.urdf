@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<robot name="NaoV6 Plugin">
+    <webots>
+        <plugin type="nomadz_webots_controller.nao_webots_driver.NaoWebotsDriver"/>
+    </webots>
+</robot>

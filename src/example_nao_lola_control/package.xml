@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+    <name>example_nao_lola_control</name>
+    <version>0.0.1</version>
+    <description>NomadZ example modules</description>
+    <maintainer email="nomadz@ethz.ch">NomadZ Team</maintainer>
+    <license>MIT License</license>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <depend>rclcpp</depend>
+    <depend>nomadz_definitions</depend>
+    <depend>nao_lola_command_msgs</depend>
+    <depend>nao_lola_sensor_msgs</depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>

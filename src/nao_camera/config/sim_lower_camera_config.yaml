@@ -1,0 +1,4 @@
+/**:
+  ros__parameters:
+    device_type: "simulated"
+    camera_frame_id: "lower_camera"

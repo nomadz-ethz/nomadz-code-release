@@ -1,0 +1,15 @@
+topics:
+ - /sensors/fsr
+ - /sensors/imu
+ - /sensors/joint_data
+ - /effectors/joint_requests
+ - /behavior/motion_request
+ - /motion_control/motion_info
+ - /motion_control/requested_robot_model
+ - /proprioception/arm_contact
+ - /proprioception/fall_down_state
+ - /proprioception/foot_support
+ - /proprioception/measured_robot_model
+ - /proprioception/orientation
+ - /tf
+ - /tf_static

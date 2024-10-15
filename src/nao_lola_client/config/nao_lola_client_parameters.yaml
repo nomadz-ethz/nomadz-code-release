@@ -1,0 +1,96 @@
+nao_lola_client:
+  endpoint:
+    connection_type: {
+      type: string,
+      default_value: "UNIX",
+      read_only: true,
+      description: "Interface to use to send LoLA messages. Note that the robot only supports UNIX whereas the simulator supports both UNIX and TCP",
+      validation: {
+        one_of<>: [["UNIX", "TCP"]],
+      }
+    }
+    nao_lola_unix_endpoint: {
+      type: string,
+      default_value: "/tmp/robocup",
+      read_only: true,
+      description: "Unix socket address where nao lola receives and sends robot data.",
+    }
+    tcp_port: {
+      type: int,
+      default_value: -1,
+      read_only: true,
+      description: "port of the tcp server. Needs to be set if connection_type==TCP",
+    }
+  shutdown_if_no_joint_requests_publishers: {
+    type: bool,
+    default_value: false,
+    read_only: true,
+    description: "whether the client should shut down if there are no publishers to the jointrequests topic.",
+  }
+  sit_down_angles: {
+    type: double_array,
+    default_value: [
+      0.0,     # headyawpositionsensor
+      0.0,     # headpitchpositionsensor
+      0.89,   # lshoulderpitchpositionsensor
+      0.06,   # lshoulderrollpositionsensor
+      0.26,   # lelbowyawpositionsensor
+      -0.62,  # lelbowrollpositionsensor
+      -1.57,  # lwristyawpositionsensor
+      0.0,     # lhipyawpitchpositionsensor
+      0.0,     # lhiprollpositionsensor
+      -0.89,  # lhippitchpositionsensor
+      2.11,   # lkneepitchpositionsensor
+      -1.189, # lanklepitchpositionsensor
+      0.0,     # lanklerollpositionsensor
+      0.0,     # rhiprollpositionsensor
+      -0.9,   # rhippitchpositionsensor
+      2.12,   # rkneepitchpositionsensor
+      -1.186, # ranklepitchpositionsensor
+      0.0,     # ranklerollpositionsensor
+      0.89,   # rshoulderpitchpositionsensor
+      -0.06,  # rshoulderrollpositionsensor
+      -0.26,  # relbowyawpositionsensor
+      0.62,   # relbowrollpositionsensor
+      1.57,   # rwristyawpositionsensor
+      0.0,     # lhandpositionsensor
+      0.0,     # rhandpositionsensor
+    ],
+    read_only: true,
+      description: "Default joint values in the sit down position. Sitting down will interpolate to these values."
+
+  }
+
+  stand_up_angles: {
+    type: double_array,
+    default_value: [
+      0.0,   # headYawPositionSensor
+      0.0,   # headPitchPositionSensor
+      1.57,   # lShoulderPitchPositionSensor
+      0.2,  # lShoulderRollPositionSensor
+      0.0,   # lElbowYawPositionSensor
+      0.0,   # lElbowRollPositionSensor
+      -1.57, # lWristYawPositionSensor
+      0.0,   # lHipYawPitchPositionSensor
+      0.0,   # lHipRollPositionSensor
+      -0.02618,   # lHipPitchPositionSensor
+      0.0,   # lKneePitchPositionSensor
+      0.0,   # lAnklePitchPositionSensor
+      0.0,   # lAnkleRollPositionSensor
+      0.0,   # rHipRollPositionSensor
+      -0.02618,   # rHipPitchPositionSensor
+      0.0,   # rKneePitchPositionSensor
+      0.0,   # rAnklePitchPositionSensor
+      0.0,   # rAnkleRollPositionSensor
+      1.57,   # rShoulderPitchPositionSensor
+      -0.2, # rShoulderRollPositionSensor
+      0.0,   # rElbowYawPositionSensor
+      0.0,   # rElbowRollPositionSensor
+      1.57,   # rWristYawPositionSensor
+      0.0,   # lHandPositionSensor
+      0.0,   # rHandPositionSensor
+    ],
+    read_only: true,
+    description: "Default joint values in the standing position. Standing up will interpolate to these values"
+
+  }

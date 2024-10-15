@@ -1,0 +1,7 @@
+std_msgs/Header header
+
+bool local_whistle_detected
+bool team_whistle_detected
+
+bool local_referee_gesture_detected
+bool team_referee_gesture_detected

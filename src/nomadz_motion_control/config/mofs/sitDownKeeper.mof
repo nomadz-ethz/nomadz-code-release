@@ -1,0 +1,14 @@
+ motion_id = sitDownKeeper
+"sit down after standing
+
+label start
+
+"              HY     HP          LSP    LSR    LEY    LER    LWY     LH          RSP    RSR    REY    RER    RWY     RH         LHYP    LHR    LHP    LKP    LAP    LAR         RHYP    RHR    RHP    RKP    RAP    RAR          Int    Dur
+                *      *           94     17      0     -1    -90      0           94    -17     -0      1     90      0         -0.4   -1.9  -51.9  122.6    -70    1.7         -0.4   -0.6  -52.2  121.9  -70.7    0.6            1    500
+
+label repeat
+                *      *           94     17      0     -1    -90      0           94    -17     -0      1     90      0         -0.4   -1.9  -51.9  122.6    -70    1.7         -0.4   -0.6  -52.2  121.9  -70.7    0.6            1    100
+
+
+transition sitDownKeeper sitDownKeeper repeat
+transition allMotions goUp start

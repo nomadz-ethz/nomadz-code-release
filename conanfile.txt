@@ -1,0 +1,12 @@
+[requires]
+tensorflow-lite/2.12.0
+asmjit/cci.20230325
+fftw/3.3.10
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[options]
+fftw*:precision_longdouble=False
+fftw*:simd=sse2

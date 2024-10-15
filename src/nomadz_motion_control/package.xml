@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>nomadz_motion_control</name>
+  <version>0.0.1</version>
+  <description>Motion control nodes for the NAO V6</description>
+  <maintainer email="nomadz@list.ee.ethz.ch">Team NomadZ</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2_eigen</depend>
+  <depend>generate_parameter_library</depend>
+  <depend>nao_lola_sensor_msgs</depend>
+  <depend>nao_lola_command_msgs</depend>
+  <depend>nomadz_behavior_msgs</depend>
+  <depend>nomadz_definitions</depend>
+  <depend>nomadz_motion_control_msgs</depend>
+  <depend>nomadz_kinematics</depend>
+  <depend>nomadz_proprioception_msgs</depend>
+  <depend>nomadz_modeling_msgs</depend>
+  <depend>nomadz_core</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

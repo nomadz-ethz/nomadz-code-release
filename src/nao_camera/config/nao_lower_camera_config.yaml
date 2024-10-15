@@ -1,0 +1,7 @@
+/**:
+  ros__parameters:
+    video_device: "/dev/video-bottom"
+    image_size: [320, 240]
+    frame_rate: 30
+    is_flipped: false
+    camera_frame_id: "lower_camera"

@@ -1,0 +1,8 @@
+special_action_generator_parameters:
+  speed_factor:
+        {
+          type: double,
+          default_value: 1.0,
+          description: "Speed factor, expressed as a fraction, used for the execution of the special actions",
+          validation: { bounds<>: [0.2, 1.0] },
+        }

@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="nomadz_motion_control" exec="motion_control_node" name="motion_control_node"/>
+</launch>

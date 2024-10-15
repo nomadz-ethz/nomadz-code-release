@@ -1,0 +1,20 @@
+{
+    "build": {
+        "host-debug": {
+            "cmake-args": [
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "-DCMAKE_TOOLCHAIN_FILE=@NOMADZ_NG_DIR@/build/toolchains/Debug/conan_toolchain.cmake",
+                "-DBUILD_TESTING=ON",
+                "--no-warn-unused-cli",
+            ]
+        },
+        "host-release": {
+            "cmake-args": [
+                "-DCMAKE_BUILD_TYPE=Release",
+                "-DCMAKE_TOOLCHAIN_FILE=@NOMADZ_NG_DIR@/build/toolchains/Release/conan_toolchain.cmake",
+                "-DBUILD_TESTING=ON",
+                "--no-warn-unused-cli",
+            ]
+        }
+    }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<robot name="Supervisor Plugin">
+    <webots>
+        <plugin type="nomadz_webots_controller.supervisor.Supervisor" />
+    </webots>
+</robot>

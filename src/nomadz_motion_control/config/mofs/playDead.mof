@@ -1,0 +1,12 @@
+motion_id = playDead
+"Switch off all joints
+label start
+"              HY     HP          LSP    LSR    LEY    LER    LWY     LH          RSP    RSR    REY    RER    RWY     RH         LHYP    LHR    LHP    LKP    LAP    LAR         RHYP    RHR    RHP    RKP    RAP    RAR          Int    Dur
+hardness        0      0            0      0      0      0      0      0            0      0      0      0      0      0            0      0      0      0      0      0            0      0      0      0      0      0            0
+                -      -            -      -      -      -      -      -            -      -      -      -      -      -            -      -      -      -      -      -            -      -      -      -      -      -            0    100
+
+label repeat
+                -      -            -      -      -      -      -      -            -      -      -      -      -      -            -      -      -      -      -      -            -      -      -      -      -      -            0    100
+transition playDead playDead repeat
+
+transition allMotions extern start

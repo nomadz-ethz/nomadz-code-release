@@ -1,0 +1,44 @@
+head_engine_parameters:
+  p_pan:
+    type: double
+    default_value: 0.3
+    validation:
+      gt<>: 0.0
+  p_tilt:
+    type: double
+    default_value: 0.3
+    validation:
+      gt<>: 0.0
+  error_pan_tolerance:
+    type: double
+    default_value: 0.1
+    validation:
+      gt<>: 0.0
+  error_tilt_tolerance:
+    type: double
+    default_value: 0.1
+    validation:
+      gt<>: 0.0
+  pan_bound:
+    type: double_array
+    default_value: [-2.0857, 2.0857]
+    validation:
+      fixed_size<>: 2
+      element_bounds<>: [-3.14, 3.14]
+  tilt_bound:
+    type: double_array
+    default_value: [-0.671, -0.33, 0.8, 0.195, 0.5148] # [lower_min, lower_max, stretch, upper_min, upper_max]
+    validation:
+      fixed_size<>: 5
+      element_bounds<>: [-3.14, 3.14]
+  max_u_bound:
+    type: double_array
+    default_value: [-1.0, 1.0]
+    validation:
+      fixed_size<>: 2
+  stiffness:
+    type: double_array
+    default_value: [0.7, 0.7]
+    validation:
+      fixed_size<>: 2
+      element_bounds<>: [0.0, 1.0]

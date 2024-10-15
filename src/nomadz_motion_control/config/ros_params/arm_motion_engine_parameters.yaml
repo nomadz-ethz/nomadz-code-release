@@ -1,0 +1,50 @@
+arm_motion_engine_parameters:
+  swing_gain:
+    type: double
+    default_value: 3.0
+    validation:
+      gt<>: 0.0
+  thrsh_shoulder_roll:
+    type: double
+    default_value: 1.0
+    validation:
+      gt<>: 0.0
+  thrsh_shoulder_pitch:
+    type: double
+    default_value: 1.0
+    validation:
+      gt<>: 0.0
+  shoulder_roll_offset:
+    type: double
+    default_value: 0.2
+    validation:
+      bounds<>: [0.0, 1.570796]
+  contact_delay_ms:
+    type: int
+    default_value: 2000
+    validation:
+      gt<>: 0
+  p_gains:
+    type: double_array
+    default_value: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+    validation:
+      fixed_size<>: 6
+      lower_element_bounds<>: 0.0
+  left_default_point:
+    type: double_array
+    default_value: [0.1, 1.570796, 0.0, 0.0, -1.570796, 0.0]
+    validation:
+      fixed_size<>: 6
+      element_bounds<>: [-3.141592, 3.141592]
+  left_back_point:
+    type: double_array
+    default_value: [-0.2, 2.08, -0.174, 0.0, -1.570796, 0.0]
+    validation:
+      fixed_size<>: 6
+      element_bounds<>: [-3.141592, 3.141592]
+  stiffness:
+    type: double_array
+    default_value: [0.08, 0.08, 0.7, 0.7, 0.7, 0.7]
+    validation:
+      fixed_size<>: 6
+      element_bounds<>: [0.0, 1.0]

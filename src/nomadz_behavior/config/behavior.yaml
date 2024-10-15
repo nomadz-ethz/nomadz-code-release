@@ -1,0 +1,8 @@
+main_tree_name: "BehaviorMainTree"
+head_motion_tree_name: "HeadMotionTree"
+bt_loop_frequency: 30.0
+has_ball_distance: 0.35
+is_aligned_angular_tolerance: 0.349066 # 20 degrees
+dribble_possible_distance: 1.0
+dribble_kick_power: 0.2
+penalty_kick_power: 2

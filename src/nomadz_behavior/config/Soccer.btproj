@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" project_name="Project">
+    <include path="BehaviorTree.xml"/>
+    <include path="HeadMotionTree.xml"/>
+    <include path="MotionTree.xml"/>
+    <include path="TargetBehaviorTree.xml"/>
+    <!-- Description of Node Models (used by Groot) -->
+    <TreeNodesModel>
+        <Action ID="Alignment" editable="true">
+            <input_port name="set_play" default="{set_play}"/>
+        </Action>
+        <Action ID="ApplySkill"/>
+        <Condition ID="BallFound"/>
+        <Condition ID="BallFree"/>
+        <Condition ID="BallLost"/>
+        <Condition ID="CanSaveShot"/>
+        <SubTree ID="Cover_Agents_ST" editable="true">
+            <input_port name="target_type" default="{target_type}"/>
+        </SubTree>
+        <Action ID="Engage"/>
+        <Action ID="FootAlignment" editable="true"/>
+        <Action ID="GameStatusProvider">
+            <output_port name="set_play" type="std::string"/>
+            <output_port name="is_kicking_team" type="bool"/>
+            <output_port name="game_state" type="std::string"/>
+            <output_port name="game_phase" type="std::string"/>
+        </Action>
+        <Action ID="GetTarget">
+            <output_port name="target" type="nomadz_core::Pose2D"/>
+            <input_port name="target_type" type="std::string"/>
+        </Action>
+        <Condition ID="HasBall"/>
+        <Condition ID="HasBallLock"/>
+        <Condition ID="IsAligned" editable="true"/>
+        <Action ID="IsHighestActivePlayer" editable="true"/>
+        <Condition ID="IsInsideArea"/>
+        <Action ID="Kick" editable="true"/>
+        <Condition ID="Localized"/>
+        <Action ID="LogUndefinedState" editable="true">
+            <input_port name="state_name" default="{state_name}"/>
+            <input_port name="requested_state" default="{requested_state}"/>
+        </Action>
+        <Action ID="LookAtBall"/>
+        <Action ID="LookAtDirection">
+            <input_port name="look_target_direction" type="float"/>
+        </Action>
+        <Condition ID="Lost"/>
+        <Condition ID="Penalized"/>
+        <Action ID="Penalty"/>
+        <Action ID="Recovery"/>
+        <Action ID="Relax"/>
+        <Action ID="RoleProvider">
+            <output_port name="player_role" type="std::string"/>
+        </Action>
+        <Action ID="SaveShot"/>
+        <Action ID="SpecialAction">
+            <input_port name="special_action_type" type="nomadz_motion_control_msgs::SpecialActionType"/>
+        </Action>
+        <Condition ID="Standing"/>
+        <SubTree ID="Undefined_Switch_ST" editable="true">
+            <input_port name="state_name" default="{state_name}"/>
+            <input_port name="requested_state" default="{requested_state}"/>
+        </SubTree>
+        <Action ID="WalkAtSpeed">
+            <input_port name="target_speed" type="nomadz_core::Twist2D"/>
+        </Action>
+        <Action ID="WalkToTarget">
+            <input_port name="target" type="nomadz_core::Pose2D"/>
+        </Action>
+    </TreeNodesModel>
+</root>

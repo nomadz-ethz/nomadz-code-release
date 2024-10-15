@@ -1,0 +1,18 @@
+{% set colcon_home = os.path.abspath(os.path.join(profile_dir, "../../../.colcon")) %}
+
+[settings]
+arch=x86_64
+compiler=clang
+compiler.cppstd=gnu17
+compiler.version=14
+compiler.libcxx=libstdc++11
+os=Linux
+
+[buildenv]
+COLCON_HOME={{ colcon_home }}
+
+[conf]
+tools.build.cross_building:cross_build=False
+tools.build:compiler_executables={"c": "clang-14", "cpp": "clang++-14"}
+tools.cmake.cmaketoolchain:generator=Ninja
+tools.cmake.cmaketoolchain:user_toolchain=['{{ os.path.join(profile_dir, "base-host-toolchain.cmake") }}']

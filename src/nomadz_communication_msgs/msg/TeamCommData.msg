@@ -1,0 +1,6 @@
+std_msgs/Header header
+
+uint8 player_id
+nomadz_behavior_msgs/EgoStatus ego_status
+nomadz_modeling_msgs/BallModel teammate_ball_model
+nomadz_modeling_msgs/RobotPose teammate_pose

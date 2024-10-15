@@ -1,0 +1,26 @@
+image_width: 640
+image_height: 480
+camera_name: upper_camera
+camera_matrix:
+  rows: 3
+  cols: 3
+  # nominal focal length values derived from the field of view of the camera
+  # and the usual image resolution
+  data: [618.66,       0, 320.0,
+               0, 617.16, 240.0,
+               0,      0,      1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.0, 0.0, 0.0, 0.0, 0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [618.66,      0, 320.0, 0,
+              0, 617.16, 240.0, 0,
+              0,      0,     1, 0]

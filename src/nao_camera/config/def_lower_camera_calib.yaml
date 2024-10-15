@@ -1,0 +1,26 @@
+image_width: 320
+image_height: 240
+camera_name: lower_camera
+camera_matrix:
+  rows: 3
+  cols: 3
+  # nominal focal length values derived from the field of view of the camera
+  # and the usual image resolution
+  data: [309.33,       0, 160.0,
+               0, 308.58, 120.0,
+               0,      0,      1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.0, 0.0, 0.0, 0.0, 0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [309.33,      0, 160.0, 0,
+              0, 308.58, 120.0, 0,
+              0,      0,     1, 0]

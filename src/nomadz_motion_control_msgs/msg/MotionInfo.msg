@@ -1,0 +1,8 @@
+std_msgs/Header header
+
+geometry_msgs/Twist odometry_offset
+MotionRequest executed_motion_request
+bool is_leaving_possible
+bool is_motion_stable
+bool is_motion_done
+bool is_head_motion_done

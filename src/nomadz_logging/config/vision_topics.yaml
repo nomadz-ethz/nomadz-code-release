@@ -1,0 +1,7 @@
+topics:
+ - /upper_camera/image
+ - /upper_camera/camera_info
+ - /lower_camera/image
+ - /lower_camera/camera_info
+ - /tf
+ - /tf_static

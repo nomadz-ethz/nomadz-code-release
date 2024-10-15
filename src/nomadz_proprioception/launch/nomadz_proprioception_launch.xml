@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="nomadz_proprioception" exec="nomadz_proprioception_node" name="sim"/>
+ </launch>

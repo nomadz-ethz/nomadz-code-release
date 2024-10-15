@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="HeadMotionTree">
+  <BehaviorTree ID="HeadMotionTree">
+    <ReactiveSequence>
+      <ReactiveFallback>
+        <Inverter>
+          <Penalized/>
+        </Inverter>
+        <LookAtDirection look_target_direction="0.0"/>
+      </ReactiveFallback>
+      <ReactiveSequence>
+        <ReactiveFallback>
+          <BallLost/>
+          <LookAtBall/>
+        </ReactiveFallback>
+        <SubTree ID="WalkScan"/>
+      </ReactiveSequence>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="WalkScan">
+    <ReactiveSequence>
+      <BallLost/>
+      <Sequence>
+        <LookAtDirection look_target_direction="1.5"/>
+        <LookAtDirection look_target_direction="-1.5"/>
+      </Sequence>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Condition ID="BallLost"/>
+    <Action ID="LookAtBall"/>
+    <Action ID="LookAtDirection">
+      <input_port name="look_target_direction"
+                  type="float"/>
+    </Action>
+    <Condition ID="Penalized"/>
+  </TreeNodesModel>
+
+</root>

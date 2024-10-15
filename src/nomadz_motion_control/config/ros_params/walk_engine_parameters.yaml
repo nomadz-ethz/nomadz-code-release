@@ -1,0 +1,84 @@
+walk_engine_parameters:
+  switch_threshold_min:
+    type: double
+    default_value: 0.6
+    validation:
+      gt<>: 0.0
+  base_walk_period:
+    type: double
+    default_value: 0.25
+    validation:
+      gt<>: 0.0
+  walk_period_increase_factor:
+    x:
+      type: double
+      default_value: 0.1
+    y:
+      type: double
+      default_value: 0.1
+    theta:
+      type: double
+      default_value: 0.01
+  foot_origin_offset_x:
+    type: double
+    default_value: 0.025
+  gyro_balance_factor:
+    forward:
+      type: double
+      default_value: 0.25
+    backward:
+      type: double
+      default_value: 0.25
+    sideways:
+      type: double
+      default_value: 0.05
+  side_step_offset_x_scaler:
+    type: double
+    default_value: 1.0
+  ankle_pitch_stiffness:
+    type: double
+    default_value: 0.9
+  ankle_roll_stiffness:
+    type: double
+    default_value: 0.2
+  base_foot_lift:
+    type: double
+    default_value: 0.01
+  foot_lift_increase_factor:
+    x:
+      type: double
+      default_value: 0.02
+    y:
+      type: double
+      default_value: 0.04
+    theta:
+      type: double
+      default_value: 0.0
+  gyro_low_pass_ratio:
+    type: double
+    default_value: 0.6
+  enable_gyro_compensation:
+    type: bool
+    default_value: false
+  gyro_compensation_p_gain:
+    type: double
+    default_value: 0.0
+  gyro_compensation_d_gain:
+    type: double
+    default_value: 0.0
+  stand_stiffness_delay:
+    type: int
+    default_value: 2
+  walk_stiffness:
+    type: double
+    default_value: 0.8
+  step_correction_allow_phase_range:
+    min:
+      type: double
+      default_value: 0.6
+    max:
+      type: double
+      default_value: 0.95
+  foot_lift_first_step_factor:
+    type: double
+    default_value: 0.7

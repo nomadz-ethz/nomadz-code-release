@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="nomadz_motion_control" exec="kick_tester">
+    <param name="debug_motion_request_sub" value="true"/>
+  </node>
+</launch>

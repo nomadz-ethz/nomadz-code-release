@@ -1,0 +1,2 @@
+float32 cpu_usage_percent
+float32 ram_usage_percent

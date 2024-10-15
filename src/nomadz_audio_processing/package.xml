@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>nomadz_audio_processing</name>
+  <version>0.0.1</version>
+  <description>Audio processing for RoboCup SPL</description>
+  <maintainer email="nomadz@list.ee.ethz.ch">Team NomadZ</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>nomadz_behavior_msgs</depend>
+  <depend>nomadz_configuration</depend>
+  <depend>nomadz_communication_msgs</depend>
+  <depend>nomadz_audio_processing_msgs</depend>
+
+  <depend>nomadz_core</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

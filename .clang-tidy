@@ -1,0 +1,89 @@
+# the checks are split in the following categories separated by a newline:
+# - enabled checks wildcards
+# - checks disabled because not relevant
+# - checks disabled because they are not useful or annoying
+# - checks disabled because they are too slow
+
+Checks: >
+    -*,
+    bugprone-*,
+    google-*,
+    misc-*,
+    modernize-*,
+    performance-*,
+    readability-*,
+
+    -clang-analyzer-apiModeling*,
+    -clang-analyzer-fuchsia*,
+    -clang-analyzer-osx*,
+    -clang-analyzer-valist*,
+    -clang-analyzer-webkit*,
+    -clang-analyzer-security*,
+    -google-objc-*,
+
+    -misc-include-cleaner,
+    -misc-non-private-member-variables-in-classes,
+    -modernize-use-trailing-return-type,
+    -readability-identifier-length,
+    -readability-magic-numbers,
+
+    -bugprone-infinite-loop,
+    -bugprone-standalone-empty,
+    -bugprone-stringview-nullptr,
+    -bugprone-suspicious-semicolon,
+    -bugprone-suspicious-string-compare,
+    -google-upgrade-googletest-case,
+    -google-runtime-int,
+    -misc-confusable-identifiers,
+    -misc-misleading-identifier,
+    -misc-non-copyable-objects,
+    -misc-unused-using-decls,
+    -modernize-use-nodiscard,
+    -modernize-avoid-c-arrays,
+    -modernize-deprecated-ios-base-aliases,
+    -modernize-macro-to-enum,
+    -modernize-replace-auto-ptr,
+    -modernize-type-traits,
+    -modernize-use-nodiscard,
+    -modernize-use-transparent-functors,
+    -performance-unnecessary-value-param
+
+# All warnings are treated as errors
+WarningsAsErrors: '*'
+
+# include all the headers in the project
+HeaderFilterRegex: "src/"
+
+CheckOptions:
+  - key: bugprone-easily-swappable-parameters.MinimumLength
+    value: '4'
+  - key: readability-function-cognitive-complexity.IgnoreMacros
+    value: 'true'
+  - key: readability-identifier-naming.NamespaceCase
+    value: 'lower_case'
+  - key: readability-identifier-naming.ClassCase
+    value: 'CamelCase'
+  - key: readability-identifier-naming.StructCase
+    value: 'CamelCase'
+  - key: readability-identifier-naming.TemplateParameterCase
+    value: 'CamelCase'
+  - key: readability-identifier-naming.FunctionCase
+    value: 'camelBack'
+  - key: readability-identifier-naming.VariableCase
+    value: 'lower_case'
+  - key: readability-identifier-naming.ClassMemberCase
+    value: 'lower_case'
+  - key: readability-identifier-naming.PublicMemberSuffix
+    value: ''
+  - key: readability-identifier-naming.ProtectedMemberSuffix
+    value: '_'
+  - key: readability-identifier-naming.PrivateMemberSuffix
+    value: '_'
+  - key: readability-identifier-naming.EnumConstantCase
+    value: 'UPPER_CASE'
+  - key: readability-identifier-naming.ScopedEnumConstantCase
+    value: 'UPPER_CASE'
+  - key: readability-identifier-naming.GlobalVariableCase
+    value: 'UPPER_CASE'
+  - key: readability-identifier-naming.ClassConstantCase
+    value: 'UPPER_CASE'

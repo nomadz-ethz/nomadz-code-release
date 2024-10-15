@@ -1,0 +1,10 @@
+repositories:
+  nao:
+    type: git
+    url: git@github.com:nomadz-ethz/nao.git
+    version: 9c79e6563bad1a52e9fd9b41f0cc4ccd6e1cdf70
+
+  naosoccer_visualization:
+    type: git
+    url: git@github.com:nomadz-ethz/naosoccer_visualization.git
+    version: 65506c2aad98edb3c6d1d37ead348292a16ab03d

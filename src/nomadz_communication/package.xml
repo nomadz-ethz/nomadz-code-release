@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>nomadz_communication</name>
+  <version>0.0.1</version>
+  <description>Package contains node that handle the UDP socket communication between the SPL game controller as well as robot2robot communications. </description>
+  <maintainer email="nomadz@list.ee.ethz.ch">Team NomadZ</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>boost</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nomadz_core</depend>
+  <depend>nomadz_communication_msgs</depend>
+  <depend>nomadz_configuration</depend>
+  <depend>nomadz_modeling_msgs</depend>
+  <depend>nomadz_proprioception_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

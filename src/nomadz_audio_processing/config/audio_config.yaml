@@ -1,0 +1,7 @@
+audio_provider:
+  ros__parameters:
+    retries: 10
+    retryDelay: 500
+    channels: 2
+    sampleRate: 8000
+    maxFrames: 5000

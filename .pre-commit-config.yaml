@@ -1,0 +1,31 @@
+exclude: ^nao-sdk/|^deps/|^config/ssh/
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev:  v4.5.0
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    -   id: forbid-new-submodules
+
+-   repo: https://github.com/psf/black
+    rev: 24.3.0
+    hooks:
+    -   id: black
+
+-   repo: https://github.com/PyCQA/isort
+    rev: 5.13.2
+    hooks:
+    -   id: isort
+        args: ["--profile", "black"]
+
+-   repo: local
+    hooks:
+    -   id:  run-clang-format
+        name: Clang formatter script
+        entry: bash tools/lint/run-clang-format.sh
+        language: system
+    -   id:  run-cmake-format
+        name: CMake formatter script
+        entry: bash tools/lint/run-cmake-format.sh
+        language: system

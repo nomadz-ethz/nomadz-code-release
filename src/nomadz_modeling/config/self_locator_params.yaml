@@ -1,0 +1,51 @@
+self_locator_parameters:
+  number_of_samples: {
+    type: int,
+    default_value: 12,
+    description: "Numer of samples in the particle filter",
+  }
+  major_dir_trans_weight: {
+    type: double,
+    default_value: 2.,
+    description: "Weight of translation movement into translation noise along main direction of movement",
+  }
+  minor_dir_trans_weight: {
+    type: double,
+    default_value: 1.,
+    description: "Weight of translation movement into translation noise along secondary direction of movement",
+  }
+  moved_dist_weight_rotation_noise: {
+    type: double,
+    default_value: 0.0005,
+    description: "Weight of translation movement into rotation noise",
+  }
+  angle_weight_noise: {
+    type: double,
+    default_value: 0.25,
+    description: "Weight of rotation movement into rotation noise",
+  }
+  validity_factor_landmark_measurement: {
+    type: double,
+    default_value: 3.,
+    description: "Landmark validity weight",
+  }
+  validity_factor_pose_measurement: {
+    type: double,
+    default_value: 5.,
+    description: "Pose validity weight",
+  }
+  validity_factor_line_measurement: {
+    type: double,
+    default_value: 1.,
+    description: "Line validity weight",
+  }
+  number_of_considered_frames_for_validity: {
+    type: int,
+    default_value: 60,
+    description: "Number of frames considered into the validity update",
+  }
+  base_validity_weight: {
+    type: double,
+    default_value: 0.1,
+    description: "Base weight even when a particle has zero validity",
+  }

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+    <name>nomadz_behavior</name>
+    <version>0.0.1</version>
+    <description>NomadZ behavior</description>
+    <maintainer email="nomadz@ethz.ch">NomadZ Team</maintainer>
+    <license>MIT License</license>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <depend>behaviortree_cpp</depend>
+    <depend>rclcpp</depend>
+    <depend>rclcpp_action</depend>
+    <depend>rclcpp_components</depend>
+    <depend>ament_index_cpp</depend>
+    <depend>nomadz_core</depend>
+    <depend>nomadz_configuration</depend>
+    <depend>nomadz_behavior_msgs</depend>
+    <depend>nomadz_motion_control_msgs</depend>
+    <depend>nomadz_communication_msgs</depend>
+    <depend>nomadz_proprioception_msgs</depend>
+    <depend>nomadz_modeling_msgs</depend>
+    <depend>nomadz_audio_processing_msgs</depend>
+    <depend>geometry_msgs</depend>
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>

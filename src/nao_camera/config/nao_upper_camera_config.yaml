@@ -1,0 +1,7 @@
+/**:
+  ros__parameters:
+    video_device: "/dev/video-top"
+    image_size: [640, 480]
+    frame_rate: 30
+    is_flipped: true
+    camera_frame_id: "upper_camera"

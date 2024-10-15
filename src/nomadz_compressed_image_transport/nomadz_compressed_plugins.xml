@@ -1,0 +1,19 @@
+<library path="nomadz_compressed_image_transport">
+  <class
+    name="image_transport/nomadz_compressed_pub"
+    type="nomadz_compressed_image_transport::CompressedPublisher"
+    base_class_type="image_transport::PublisherPlugin">
+    <description>
+      This plugin publishes a CompressedImage encoded in YUV422_YUY2 using JPEG compression.
+    </description>
+  </class>
+
+  <class
+    name="image_transport/nomadz_compressed_sub"
+    type="nomadz_compressed_image_transport::CompressedSubscriber"
+    base_class_type="image_transport::SubscriberPlugin">
+    <description>
+      This plugin decompresses a CompressedImage topic.
+    </description>
+  </class>
+</library>

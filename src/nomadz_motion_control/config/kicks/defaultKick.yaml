@@ -1,0 +1,30 @@
+---
+num_of_phases: 4
+# roll, pitch, yaw are optional argument and the rotation are created using the Tait Bryan XYZ convention
+starting_position: {x: 0.0, y: 0.0, z: 0.0, roll: 0.0, pitch: 0.0, yaw: 0.0}
+kick_phases:
+  prepare:
+    duration: 0.3
+    # interpolation_type: 0 linear, 1 quadratic bezier, 2 cubic bezier
+    interpolation_type: 1
+    key_frames:
+      - {x: 0.0, y: 0.0, z: 0.0}
+      - {x: 0.0, y: 0.0, z: 0.0}
+  swing_back:
+    duration: 0.5
+    interpolation_type: 1
+    key_frames:
+      - {x: 0.0, y: 0.0, z: 0.03}
+      - {x: -0.05, y: 0.02, z: 0.03}
+  kick:
+    duration: 0.2
+    interpolation_type: 1
+    key_frames:
+      - {x: 0.1, y: 0.02, z: 0.03}
+      - {x: 0.08, y: 0.02, z: 0.03}
+  return_to_base:
+    duration: 0.5
+    interpolation_type: 1
+    key_frames:
+      - {x: 0.0, y: 0.0, z: 0.03}
+      - {x: 0.0, y: 0.0, z: 0.0}

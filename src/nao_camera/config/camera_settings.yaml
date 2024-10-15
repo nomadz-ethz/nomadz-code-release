@@ -1,0 +1,12 @@
+/**:
+  ros__parameters:
+    contrast: 32
+    exposure_auto: 0
+    exposure_absolute: 2000
+    focus_auto: false
+    gain: 160
+    hue: 0
+    hue_auto: false
+    saturation: 80
+    sharpness: 4
+    white_balance_temperature_auto: true

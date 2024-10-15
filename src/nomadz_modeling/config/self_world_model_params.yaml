@@ -1,0 +1,17 @@
+self_world_model_params:
+  publish_ukf_debug: {
+    type: bool,
+    default_value: false,
+    description: "Whether UKF debugging info should be printed (e.g. particle states)",
+    read_only: true,
+  }
+  valid_timeout: {
+    type: double,
+    default_value: 1.,
+    description: "Timeout before published pose is invalid",
+  }
+  lost_timeout: {
+    type: double,
+    default_value: 5.,
+    description: "Timeout after published pose is lost",
+  }

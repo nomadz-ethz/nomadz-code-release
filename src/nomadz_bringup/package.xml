@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>nomadz_bringup</name>
+  <version>0.0.1</version>
+  <description>Package grouping the launch files for the NomadZ ROS 2 stack</description>
+  <maintainer email="nomadz@list.ee.ethz.ch">Team NomadZ</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>nao_camera</exec_depend>
+  <exec_depend>nao_lola_client</exec_depend>
+  <exec_depend>nomadz_proprioception</exec_depend>
+  <exec_depend>nomadz_communication</exec_depend>
+  <exec_depend>nomadz_audio_processing</exec_depend>
+  <exec_depend>nomadz_modeling</exec_depend>
+  <exec_depend>nomadz_behavior</exec_depend>
+  <exec_depend>nomadz_led_control</exec_depend>
+
+
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

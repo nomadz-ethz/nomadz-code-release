@@ -1,0 +1,6 @@
+#include <pluginlib/class_list_macros.hpp>
+#include "nomadz_compressed_image_transport/compressed_publisher.hpp"
+#include "nomadz_compressed_image_transport/compressed_subscriber.hpp"
+
+PLUGINLIB_EXPORT_CLASS(nomadz_compressed_image_transport::CompressedPublisher, image_transport::PublisherPlugin)
+PLUGINLIB_EXPORT_CLASS(nomadz_compressed_image_transport::CompressedSubscriber, image_transport::SubscriberPlugin)

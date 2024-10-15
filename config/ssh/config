@@ -1,0 +1,10 @@
+Host robot-*
+	User nao
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+	LogLevel quiet
+
+Host robot-nao
+	HostName 10.0.33.200
+Host robot-eth-nao
+	HostName 10.1.33.200

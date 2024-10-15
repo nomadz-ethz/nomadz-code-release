@@ -1,0 +1,19 @@
+motion_id = standHigh
+
+label start
+
+hardness       40     40           40     40     40     40     40     40           40     40     40     40     40     40           70     70     70     70     70     70           70     70     70     70     70     70            0
+
+"              HY     HP          LSP    LSR    LEY    LER    LWY     LH          RSP    RSR    REY    RER    RWY     RH         LHYP    LHR    LHP    LKP    LAP    LAR         RHYP    RHR    RHP    RKP    RAP    RAR          Int    Dur
+                *      *           90   11.5      0      0    -90      0           90  -11.5     -0     -0     90      0            0     -0   -1.5      0      0     -0            0      0   -1.5      0      0      0            1   2000
+
+" from now on, use default hardness for arms
+hardness        *      *           40     40     40     40     40     40           40     40     40     40     40     40           40     40     40     40     60     60           40     40     40     40     60     60            0
+
+label loop
+
+                *      *           90   11.5      0      0    -90      0           90  -11.5     -0     -0     90      0            0     -0   -1.5      0      0     -0            0      0   -1.5      0      0      0            1   200
+
+transition standHigh standHigh loop
+
+transition allMotions extern start

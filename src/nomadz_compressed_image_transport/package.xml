@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>nomadz_compressed_image_transport</name>
+  <version>0.0.1</version>
+  <description>Custom image transport using JPEG compression</description>
+  <maintainer email="nomadz@list.ee.ethz.ch">Team NomadZ</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>image_transport</depend>
+  <depend>sensor_msgs</depend>
+  <depend>pluginlib</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <image_transport plugin="${prefix}/nomadz_compressed_plugins.xml" />
+  </export>
+</package>

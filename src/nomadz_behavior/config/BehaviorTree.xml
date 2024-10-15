@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="BehaviorMainTree">
+  <BehaviorTree ID="Active_Behavior_ST">
+    <ReactiveSequence>
+      <ReactiveFallback>
+        <Inverter>
+          <HasBallLock/>
+        </Inverter>
+        <ReactiveSequence>
+          <ReactiveFallback>
+            <Inverter>
+              <BallFree/>
+            </Inverter>
+            <SubTree ID="Engage_ST"
+                     _autoremap="true"/>
+          </ReactiveFallback>
+          <ReactiveSequence>
+            <GetTarget target="{target}"
+                       target_type="OBSERVATION"/>
+            <WalkToTarget target="{target}"/>
+          </ReactiveSequence>
+        </ReactiveSequence>
+      </ReactiveFallback>
+      <ReactiveSequence>
+        <GetTarget target="{target}"
+                   target_type="COVER"/>
+        <WalkToTarget target="{target}"/>
+      </ReactiveSequence>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Alignment_ST">
+    <ReactiveSequence>
+      <ReactiveFallback>
+        <IsAligned/>
+        <Alignment set_play="{set_play}"/>
+      </ReactiveFallback>
+      <Sequence>
+        <FootAlignment/>
+        <ApplySkill/>
+      </Sequence>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="BehaviorMainTree">
+    <ReactiveSequence>
+      <ReactiveFallback>
+        <Inverter>
+          <Penalized/>
+        </Inverter>
+        <Penalty/>
+      </ReactiveFallback>
+      <ReactiveSequence>
+        <Fallback>
+          <Standing/>
+          <SubTree ID="AttemptRecovery"/>
+        </Fallback>
+        <GameStatusProvider set_play="{set_play}"
+                            is_kicking_team="{is_kicking_team}"
+                            game_state="{game_state}"
+                            game_phase="{game_phase}"/>
+        <Switch4 case_1="NORMAL"
+                 case_2="PENALTYSHOOT"
+                 case_3="OVERTIME"
+                 case_4="TIMEOUT"
+                 variable="{game_phase}">
+          <SubTree ID="Game_Play_ST"
+                   _autoremap="true"/>
+          <SubTree ID="Penalty_Shootout_ST"
+                   _autoremap="false"/>
+          <SubTree ID="Game_Play_ST"
+                   _autoremap="true"/>
+          <SubTree ID="Timeout_ST"
+                   _autoremap="false"/>
+          <SubTree ID="Undefined_Switch_ST"
+                   state_name="GAME_PHASE"
+                   requested_state="{game_phase}"/>
+        </Switch4>
+      </ReactiveSequence>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Cover_Agents_ST">
+    <ReactiveSequence>
+      <GetTarget target="{target}"
+                 target_type="OBSERVATION"/>
+      <WalkToTarget target="{target}"/>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Engage_ST">
+    <ReactiveSequence>
+      <ReactiveFallback>
+        <HasBall/>
+        <ReactiveSequence>
+          <GetTarget target="{target}"
+                     target_type="ENGAGE"/>
+          <WalkToTarget target="{target}"/>
+        </ReactiveSequence>
+      </ReactiveFallback>
+      <SubTree ID="Alignment_ST"
+               _autoremap="true"/>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Game_Play_ST">
+    <Switch6 case_1="INITIAL"
+             case_2="READY"
+             case_3="SET"
+             case_4="PLAYING"
+             case_5="FINISHED"
+             case_6="STANDBY"
+             variable="{game_state}">
+      <SpecialAction special_action_type="STAND_HIGH"/>
+      <ReactiveSequence>
+        <ReactiveFallback>
+          <Localized/>
+          <SubTree ID="Relocate_ST"/>
+        </ReactiveFallback>
+        <GetTarget target="{target}"
+                   target_type="GAME_READY"/>
+        <WalkToTarget target="{target}"/>
+      </ReactiveSequence>
+      <SpecialAction special_action_type="STAND_HIGH"/>
+      <ReactiveSequence>
+        <ReactiveFallback>
+          <Localized/>
+          <SubTree ID="Relocate_ST"/>
+        </ReactiveFallback>
+        <Fallback>
+          <BallFound/>
+          <SubTree ID="Search_ST"
+                   _autoremap="false"/>
+        </Fallback>
+        <RoleProvider player_role="{player_role}"/>
+        <Switch6 case_1="NONE"
+                 case_2="GOAL_KICK"
+                 case_3="PUSHING_FREE_KICK"
+                 case_4="CORNER_KICK"
+                 case_5="KICK_IN"
+                 case_6="PENALTY_KICK"
+                 variable="{set_play}">
+          <SubTree ID="Role_Behavior_ST"
+                   _autoremap="true"/>
+          <SubTree ID="Role_Behavior_ST"
+                   _autoremap="true"/>
+          <SubTree ID="Role_Behavior_ST"
+                   _autoremap="true"/>
+          <SubTree ID="Role_Behavior_ST"
+                   _autoremap="true"/>
+          <SubTree ID="Role_Behavior_ST"
+                   _autoremap="true"/>
+          <SubTree ID="Penalty_Kick_ST"
+                   _autoremap="true"/>
+          <SubTree ID="Undefined_Switch_ST"
+                   state_name="SET_PLAY"
+                   requested_state="{set_play}"/>
+        </Switch6>
+      </ReactiveSequence>
+      <SpecialAction special_action_type="SIT_DOWN"/>
+      <SpecialAction special_action_type="STAND_HIGH"/>
+      <SubTree ID="Undefined_Switch_ST"
+               state_name="GAME_STATE"
+               requested_state="{game_state}"/>
+    </Switch6>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Keeper_Behavior_ST">
+    <ReactiveSequence>
+      <ReactiveFallback>
+        <Inverter>
+          <HasBallLock/>
+        </Inverter>
+        <SubTree ID="Engage_ST"
+                 _autoremap="true"/>
+      </ReactiveFallback>
+      <ReactiveSequence>
+        <Fallback>
+          <IsInsideArea/>
+          <ReactiveSequence>
+            <GetTarget target="{target}"
+                       target_type="CENTER_GOAL"/>
+            <WalkToTarget target="{target}"/>
+          </ReactiveSequence>
+        </Fallback>
+        <ReactiveSequence>
+          <ReactiveFallback>
+            <Inverter>
+              <CanSaveShot/>
+            </Inverter>
+            <SaveShot/>
+          </ReactiveFallback>
+          <ReactiveSequence>
+            <GetTarget target="{target}"
+                       target_type="DETECT_SHOT"/>
+            <WalkToTarget target="{target}"/>
+          </ReactiveSequence>
+        </ReactiveSequence>
+      </ReactiveSequence>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Penalty_Kick_ST">
+    <IfThenElse>
+      <IsHighestActivePlayer/>
+      <Sequence>
+        <GetTarget target="{target}"
+                   target_type="PENALTY_KICK"/>
+        <WalkToTarget target="{target}"/>
+        <ReactiveSequence>
+          <ReactiveFallback>
+            <IsAligned/>
+            <Alignment set_play="{set_play}"/>
+          </ReactiveFallback>
+          <Sequence>
+            <FootAlignment/>
+            <Kick/>
+          </Sequence>
+        </ReactiveSequence>
+      </Sequence>
+      <ReactiveSequence>
+        <GetTarget target="{target}"
+                   target_type="COVER"/>
+        <WalkToTarget target="{target}"/>
+      </ReactiveSequence>
+    </IfThenElse>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Penalty_Shootout_ST">
+    <AlwaysSuccess/>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Relocate_ST">
+    <Sequence>
+      <WalkAtSpeed target_speed="0.1 0.0 0.0"/>
+      <Sleep msec="8000"/>
+      <WalkAtSpeed target_speed="0.0 0.0 0.5"/>
+      <Sleep msec="8000"/>
+    </Sequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Role_Behavior_ST">
+    <Switch2 case_1="Goalkeeper"
+             case_2="Player"
+             variable="{player_role}">
+      <SubTree ID="Keeper_Behavior_ST"
+               _autoremap="true"/>
+      <SubTree ID="Active_Behavior_ST"
+               _autoremap="true"/>
+      <SubTree ID="Undefined_Switch_ST"
+               state_name="PLAYER_ROLE"
+               requested_state="{player_role}"
+               _autoremap="false"/>
+    </Switch2>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Search_ST">
+    <ReactiveSequence>
+      <GetTarget target="{target}"
+                 target_type="SEARCH"/>
+      <WalkToTarget target="{target}"/>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Timeout_ST">
+    <Fallback>
+      <Inverter>
+        <Standing/>
+      </Inverter>
+      <Sequence>
+        <SpecialAction special_action_type="STAND"/>
+        <SpecialAction special_action_type="SIT_DOWN"/>
+      </Sequence>
+    </Fallback>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Undefined_Switch_ST">
+    <Sequence>
+      <LogUndefinedState state_name="{state_name}"
+                         requested_state="{requested_state}"/>
+      <SpecialAction special_action_type="STAND"/>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="Alignment"
+            editable="true">
+      <input_port name="set_play"
+                  default="{set_play}"/>
+    </Action>
+    <Action ID="ApplySkill"/>
+    <Condition ID="BallFound"/>
+    <Condition ID="BallFree"/>
+    <Condition ID="CanSaveShot"/>
+    <Action ID="FootAlignment"
+            editable="true"/>
+    <Action ID="GameStatusProvider">
+      <output_port name="set_play"
+                   type="std::string"/>
+      <output_port name="is_kicking_team"
+                   type="bool"/>
+      <output_port name="game_state"
+                   type="std::string"/>
+      <output_port name="game_phase"
+                   type="std::string"/>
+    </Action>
+    <Action ID="GetTarget">
+      <output_port name="target"
+                   type="nomadz_core::Pose2D"/>
+      <input_port name="target_type"
+                  type="std::string"/>
+    </Action>
+    <Condition ID="HasBall"/>
+    <Condition ID="HasBallLock"/>
+    <Condition ID="IsAligned"
+               editable="true"/>
+    <Action ID="IsHighestActivePlayer"
+            editable="true"/>
+    <Condition ID="IsInsideArea"/>
+    <Action ID="Kick"
+            editable="true"/>
+    <Condition ID="Localized"/>
+    <Action ID="LogUndefinedState"
+            editable="true">
+      <input_port name="state_name"
+                  default="{state_name}"/>
+      <input_port name="requested_state"
+                  default="{requested_state}"/>
+    </Action>
+    <Condition ID="Penalized"/>
+    <Action ID="Penalty"/>
+    <Action ID="RoleProvider">
+      <output_port name="player_role"
+                   type="std::string"/>
+    </Action>
+    <Action ID="SaveShot"/>
+    <Action ID="SpecialAction">
+      <input_port name="special_action_type"
+                  type="nomadz_motion_control_msgs::SpecialActionType"/>
+    </Action>
+    <Condition ID="Standing"/>
+    <SubTree ID="Undefined_Switch_ST"
+             editable="true">
+      <input_port name="state_name"
+                  default="{state_name}"/>
+      <input_port name="requested_state"
+                  default="{requested_state}"/>
+    </SubTree>
+    <Action ID="WalkAtSpeed">
+      <input_port name="target_speed"
+                  type="nomadz_core::Twist2D"/>
+    </Action>
+    <Action ID="WalkToTarget">
+      <input_port name="target"
+                  type="nomadz_core::Pose2D"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>
